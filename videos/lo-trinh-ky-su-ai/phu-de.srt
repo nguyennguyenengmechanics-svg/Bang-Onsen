@@ -1,14 +1,14 @@
 1
 00:00:00,000 --> 00:00:04,000
-Tuấn muốn làm kỹ sư AI, nhưng chưa biết bắt đầu từ đâu.
+Một kỹ sư AI cần học gì để đi từ người mới đến chuyên gia?
 
 2
 00:00:04,000 --> 00:00:08,000
-Đừng bắt đầu bằng giấc mơ lương nghìn đô.
+Lộ trình bắt đầu từ nền tảng và phát triển qua từng dự án.
 
 3
 00:00:08,000 --> 00:00:12,000
-Hãy bắt đầu bằng một thứ mình tự tay làm cho chạy được.
+Mỗi bậc nghề nghiệp đòi hỏi năng lực và trách nhiệm khác nhau.
 
 4
 00:00:12,000 --> 00:00:16,000
@@ -36,7 +36,7 @@ Hãy làm bài toán nhỏ trước, hiểu vì sao nó đúng và khi nào nó 
 
 10
 00:00:36,000 --> 00:00:40,000
-Tuấn chọn một dự án: chatbot, đọc hóa đơn hoặc gợi ý sản phẩm.
+Dự án đầu tay có thể là chatbot, đọc hóa đơn hoặc gợi ý sản phẩm.
 
 11
 00:00:40,000 --> 00:00:44,000
@@ -52,7 +52,7 @@ Khi đã có nền tảng và dự án, hãy tìm cơ hội thực tập.
 
 14
 00:00:52,000 --> 00:00:56,000
-Ở đây, Tuấn học đọc code, nhận góp ý và sửa lỗi cùng đồng đội.
+Thực tập giúp rèn cách đọc code, nhận góp ý và phối hợp sửa lỗi.
 
 15
 00:00:56,000 --> 00:01:00,000
@@ -72,7 +72,7 @@ Và biết kiểm tra đầu vào, ghi log, xử lý những lỗi thường g�
 
 19
 00:01:12,000 --> 00:01:16,000
-Để lên mid-level, Tuấn phải làm chủ cả vòng đời một tính năng AI.
+Ở bậc mid-level, kỹ sư làm chủ vòng đời của một tính năng AI.
 
 20
 00:01:16,000 --> 00:01:20,000
@@ -104,11 +104,11 @@ Họ chọn kiến trúc phù hợp, dự báo rủi ro và hướng dẫn đồ
 
 27
 00:01:44,000 --> 00:01:48,000
-Tuấn phải giải thích được vì sao giải pháp này đáng để doanh nghiệp đầu tư.
+Kỹ sư senior cần giải thích giá trị kinh doanh của giải pháp.
 
 28
 00:01:48,000 --> 00:01:52,000
-Sau senior, Tuấn có thể đi sâu theo hướng chuyên gia kỹ thuật.
+Sau senior, một kỹ sư AI có thể phát triển thành chuyên gia kỹ thuật.
 
 29
 00:01:52,000 --> 00:01:56,000

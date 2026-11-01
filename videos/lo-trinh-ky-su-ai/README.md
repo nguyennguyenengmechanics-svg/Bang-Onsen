@@ -22,3 +22,6 @@ HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npx --yes hyperframes@0.8.226 render 
 `kich-ban.txt`: nội dung thuyết minh.
 `phu-de.srt`: phụ đề bản dựng.
 `DESIGN.md`: bảng màu và hướng mỹ thuật.
+
+## Nội dung bản cập nhật
+Nói chung về hành trình của một kỹ sư AI, không dùng nhân vật có tên riêng. Đã bỏ hai dòng chữ cố định ở chân hình; giữ tiêu đề, thẻ kỹ năng và phụ đề nội dung.
