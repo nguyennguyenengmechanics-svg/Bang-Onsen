@@ -1,0 +1,1 @@
+Voice synthesis: sherpa-onnx 1.12.32; Piper vi_VN-vivos-x_low, speaker 0. Model source: https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models . Model card lists CC BY-NC-SA 4.0; see VOICE-MODEL-CARD.txt. No voice cloning. Narration follows phu-de.srt; technical abbreviations use Vietnamese phonetic spellings. Background music is newly synthesized for this video.

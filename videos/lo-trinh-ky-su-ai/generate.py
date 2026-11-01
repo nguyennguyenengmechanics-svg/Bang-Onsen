@@ -13,7 +13,7 @@ scenes=[
 ('09 / SAU SENIOR','Hai hướng đi, không chỉ một chiếc ghế',['Chuyên gia kỹ thuật','Lead / quản lý','Tác động lớn hơn'],['Sau senior, một kỹ sư AI có thể phát triển thành chuyên gia kỹ thuật.','Hoặc phát triển năng lực dẫn dắt đội ngũ và quản lý.','Không phải ai cũng cần làm sếp; điều quan trọng là phạm vi tác động.']),
 ('10 / KẾ HOẠCH HÀNH ĐỘNG','Bắt đầu bằng một vòng học nhỏ',['Học một kiến thức','Làm một tính năng','Đo → sửa → ghi lại'],['Nếu đang bắt đầu hôm nay, hãy chọn một bài toán nhỏ trong đời sống.','Mỗi vòng: học một kiến thức, làm một tính năng, đo kết quả rồi sửa.','Ghi lại tiến bộ bằng sản phẩm, thay vì chỉ đếm số chứng chỉ.']),
 ('ĐI ĐƯỜNG DÀI','Đừng chỉ nhìn đỉnh tháp',['Nền tảng vững','Sản phẩm thật','Học đều, đi bền'],['Các bậc nghề nghiệp là định hướng, không phải lịch thăng chức tự động.','Thu nhập còn tùy kỹ năng, công ty và thị trường ở từng thời điểm.','Bạn đang ở bậc nào, và sản phẩm tiếp theo của bạn sẽ là gì?'])]
-D=12; total=len(scenes)*D
+D=15; total=len(scenes)*D
 (p/'scenes.json').write_text(json.dumps(scenes,ensure_ascii=False,indent=2))
 (p/'kich-ban.txt').write_text('\n\n'.join(f'{i+1}. {s[1]}\n'+ '\n'.join(s[3]) for i,s in enumerate(scenes)))
 def human():
@@ -28,9 +28,9 @@ for i,(ey,title,notes,subs) in enumerate(scenes):
  parts.append(f'<section id="s{i}" class="clip" data-start="{start}" data-duration="{D+.4 if i<11 else D}" data-track-index="{i}" style="background:{bg};z-index:{i}"><div class="sun" data-layout-ignore></div><div class="scene-content"><div class="eyebrow">{ey}</div><h1 class="headline">{title}</h1><div class="stage">{human()}<div class="notes">{cards}</div>{robot()}</div></div><div class="floor" data-layout-ignore></div></section>')
  an.append(f'tl.from("#s{i}",{{opacity:0,duration:.4,ease:"sine.inOut"}},{start});tl.from("#s{i} .eyebrow",{{opacity:0,x:-25,duration:.4,ease:"power2.out"}},{start+.15});tl.from("#s{i} .headline",{{opacity:0,y:28,duration:.6,ease:"power3.out"}},{start+.3});tl.from("#s{i} .person",{{opacity:0,x:-45,duration:.65,ease:"back.out(1.4)"}},{start+.45});tl.from("#s{i} .note",{{opacity:0,y:40,stagger:.25,duration:.65,ease:"back.out(1.2)"}},{start+.7});tl.from("#s{i} .robot",{{opacity:0,scale:.7,duration:.6,ease:"bounce.out"}},{start+1.2});tl.to("#s{i} .robot",{{y:-10,repeat:4,yoyo:true,duration:1,ease:"sine.inOut"}},{start+2});')
  for j,sub in enumerate(subs):
-  t=start+j*4
-  parts.append(f'<div id="c{i}-{j}" class="subtitle" data-start="{t}" data-duration="4" data-track-index="20" style="z-index:30">{sub}</div>')
+  t=start+j*5
+  parts.append(f'<div id="c{i}-{j}" class="subtitle" data-start="{t}" data-duration="5" data-track-index="20" style="z-index:30">{sub}</div>')
   def stamp(t): return f'{t//3600:02}:{t//60%60:02}:{t%60:02},000'
-  srt.append(f'{len(srt)+1}\n{stamp(t)} --> {stamp(t+4)}\n{sub}\n')
+  srt.append(f'{len(srt)+1}\n{stamp(t)} --> {stamp(t+5)}\n{sub}\n')
 (p/'phu-de.srt').write_text('\n'.join(srt))
-(p/'index.html').write_text(f'<!doctype html><html lang="vi"><head><meta charset="utf-8"><script src="assets/gsap.min.js"></script><style>{css}</style></head><body><main id="root" data-composition-id="main" data-start="0" data-duration="{total}" data-width="1920" data-height="1080">'+''.join(parts)+'<div class="progress" style="z-index:50"></div></main><script>window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});'+''.join(an)+f'tl.from(".progress",{{scaleX:0,duration:{total},ease:"none"}},0);window.__timelines.main=tl;</script></body></html>')
+(p/'index.html').write_text(f'<!doctype html><html lang="vi"><head><meta charset="utf-8"><script src="assets/gsap.min.js"></script><style>{css}</style></head><body><main id="root" data-composition-id="main" data-start="0" data-duration="{total}" data-width="1920" data-height="1080">'+''.join(parts)+f'<audio id="narration" src="assets/thuyet-minh.mp3" data-start="0" data-duration="{total}" data-track-index="30" data-volume="1"></audio><audio id="music" src="assets/nhac-nen.mp3" data-start="0" data-duration="{total}" data-track-index="31" data-volume="1"></audio>'+'<div class="progress" style="z-index:50"></div></main><script>window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});'+''.join(an)+f'tl.from(".progress",{{scaleX:0,duration:{total},ease:"none"}},0);window.__timelines.main=tl;</script></body></html>')
