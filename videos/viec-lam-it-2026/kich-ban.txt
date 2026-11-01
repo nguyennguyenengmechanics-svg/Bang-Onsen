@@ -1,0 +1,69 @@
+Người mới còn cơ hội không?
+Thị trường việc làm IT năm 2026 còn cơ hội cho người mới không?
+Báo cáo này phân tích 3.469 tin tuyển dụng công nghệ thông tin.
+Câu trả lời nằm ở cơ cấu công việc, chứ không chỉ ở những ngành đang hot.
+
+Tin tuyển dụng ≠ số người được tuyển
+Dữ liệu được lọc từ 7.700 tin trên năm nền tảng tuyển dụng.
+Sau loại trùng và vị trí ngoài ngành, còn 3.469 tin để phân tích.
+Đây là số tin đăng, không phải số người được tuyển thành công.
+
+Một bức ảnh tại một thời điểm
+Hơn 90% dữ liệu có thời gian thuộc tháng chín và tháng mười năm 2026.
+TopCV đóng góp hơn 40% số tin, có thể làm mẫu nghiêng về miền Bắc.
+Vì vậy, đừng coi kết quả này là toàn bộ thị trường cả năm.
+
+Hai đầu cầu vẫn tập trung nhiều tin
+Trong mẫu, Hà Nội có khoảng 1.600 tin, thành phố Hồ Chí Minh khoảng 1.200.
+Hai địa bàn cộng lại chiếm hơn 80% số tin được phân tích.
+Nhưng ít tin công khai ở nơi khác không có nghĩa là không còn tuyển dụng.
+
+Data, AI và ML: một nhóm rất rộng
+Nhóm dữ liệu, trí tuệ nhân tạo và học máy có 626 tin, khoảng 18%.
+Đây là một nhóm gộp, gồm cả phân tích dữ liệu và trí tuệ kinh doanh.
+Không thể đọc con số đó thành 626 vị trí nghiên cứu AI.
+
+Tên vị trí chưa nói hết công việc
+Trong nhóm này, Python xuất hiện gần hai phần ba số tin.
+SQL và Power BI cũng được nhắc nhiều trong yêu cầu công việc.
+Hãy đọc nhiệm vụ cụ thể: làm báo cáo dữ liệu hay thực sự phát triển mô hình?
+
+Học theo mục tiêu, đừng chạy theo bảng hạng
+Theo báo cáo, Python xuất hiện trong hơn 25% tổng số tin.
+Tiếp theo trong bảng ngôn ngữ là SQL, Java rồi JavaScript.
+Chọn công nghệ theo vị trí muốn làm, không chỉ theo thứ hạng phổ biến.
+
+Biết triển khai là một lợi thế
+Docker đứng thứ ba trong bảng công nghệ tổng thể của báo cáo.
+Các yêu cầu về đám mây và triển khai cũng xuất hiện trong mô tả công việc.
+Với người mới, một ứng dụng chạy được sẽ thuyết phục hơn mã chỉ nằm trên máy.
+
+Cửa vào vẫn có, nhưng không chiếm đa số
+Khoảng 25% tin hướng đến thực tập sinh, fresher hoặc junior.
+Khoảng 75% còn lại nghiêng về nhóm đã có kinh nghiệm.
+Con số này cho thấy cấu trúc nhu cầu, không phải xác suất bạn được nhận.
+
+Ngành hot chưa chắc dễ vào nhất
+Trong báo cáo, hơn một nửa tin ngành game mở cho người mới.
+Tỷ lệ này ở nhóm Data và AI khoảng 18%; backend và DevOps đều dưới 15%.
+Đây là khác biệt giữa các nhóm, không phải lời hứa dễ xin việc ở một ngành.
+
+Đừng mặc định công việc sẽ là remote
+Chỉ khoảng 3% số tin trong mẫu cho làm từ xa hoàn toàn.
+Hơn 80% thuộc nhóm làm tại văn phòng hoặc kết hợp.
+Nếu chỉ tìm remote, bạn đang tự thu hẹp đáng kể lựa chọn trong mẫu này.
+
+20 triệu là trung vị của nhóm nào?
+Chỉ khoảng một phần tư số tin công khai mức lương cụ thể.
+Trung vị của nhóm công khai là 20 triệu đồng mỗi tháng.
+Không thể dùng mức này làm lương kỳ vọng chung cho mọi người mới.
+
+Chứng minh khả năng làm việc thực tế
+Chọn một hướng phù hợp, rồi đọc nhiều mô tả tuyển dụng của chính hướng đó.
+Làm dự án có hướng dẫn chạy, kiểm thử và giải thích các quyết định kỹ thuật.
+Mở rộng lựa chọn đầu vào, nhưng đừng xem chuyển ngành sau này là tự động.
+
+Còn cơ hội — cần một hướng đi rõ
+Bức tranh này cho thấy người mới vẫn có cơ hội, nhưng cần chọn đích rõ ràng.
+Một mẫu tin tuyển dụng không đủ chứng minh AI đã làm mất việc của cả ngành.
+Hãy dùng số liệu để chọn cách chuẩn bị, rồi kiểm chứng bằng việc ứng tuyển thật.
