@@ -1,16 +1,15 @@
-# Model card for vivos (x_low)
+# Model card for vais1000 (medium)
 
 * Language: vi_VN (Vietnamese, Vietnam)
-* Speakers: 65
-* Quality: x_low
-* Samplerate: 16,000Hz
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
 
 ## Dataset
 
-* Name: InfoRe Technology 1
-* URL: https://ailab.hcmus.edu.vn/vivos/
-* License: CC BY-NC-SA 4.0
+* URL: https://ieee-dataport.org/documents/vais-1000-vietnamese-speech-synthesis-corpus
+* License: https://creativecommons.org/licenses/by/4.0/
 
 ## Training
 
-Trained from scratch.
+Finetuned from U.S. English lessac voice (medium quality).

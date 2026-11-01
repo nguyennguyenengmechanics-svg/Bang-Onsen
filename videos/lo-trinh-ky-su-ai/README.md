@@ -8,9 +8,9 @@ Nội dung mô tả một kỹ sư AI nói chung, không dùng nhân vật có t
 - [Phụ đề](phu-de.srt)
 
 ## Âm thanh
-Giọng đọc tổng hợp tiếng Việt đọc từng câu phụ đề, bắt đầu sau 0,12 giây trong mỗi khoảng 5 giây. Nhạc nền nhỏ được tổng hợp mới. Cách ngắt nghỉ hướng tới giọng kể giải thích, không sao chép giọng người trong video tham khảo. Chưa xác minh độ tương đồng ngữ điệu bằng đánh giá nghe độc lập.
+Giọng đọc tổng hợp tiếng Việt đọc từng câu phụ đề, bắt đầu sau 0,12 giây trong mỗi khoảng 5 giây. Nhạc nền nhỏ được tổng hợp mới. Dùng đúng mô hình và thiết lập của mẫu “Viet-ro-hon” được người dùng duyệt: speaker 0, speed 1.0, noise_scale 0.2, noise_scale_w 0.3. Không tăng tốc lời đọc; mỗi câu nằm trọn trong khoảng phụ đề tương ứng.
 
-Giọng đọc dùng sherpa-onnx và mô hình Piper vi_VN-vivos-x_low (speaker 0). Model card ghi giấy phép CC BY-NC-SA 4.0; xem [thông tin nguồn âm thanh](assets/AUDIO-CREDITS.md) và [model card](assets/VOICE-MODEL-CARD.txt).
+Giọng đọc dùng sherpa-onnx và mô hình Piper vi_VN-vais1000-medium (speaker 0). Model card ghi giấy phép CC BY 4.0; xem [thông tin nguồn âm thanh](assets/AUDIO-CREDITS.md) và [model card](assets/VOICE-MODEL-CARD.txt).
 
 ## Chạy lại
 Cần Node.js 22+, FFmpeg và Chromium.

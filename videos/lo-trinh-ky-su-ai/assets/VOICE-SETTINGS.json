@@ -1,0 +1,15 @@
+{
+  "approved_sample": "Viet-ro-hon.mp3",
+  "engine": "sherpa-onnx",
+  "engine_version": "1.12.32",
+  "model": "vi_VN-vais1000-medium",
+  "speaker_id": 0,
+  "speed": 1.0,
+  "noise_scale": 0.2,
+  "noise_scale_w": 0.3,
+  "sample_rate": 22050,
+  "subtitle_slot_seconds": 5,
+  "speech_onset_seconds": 0.12,
+  "time_stretch": false,
+  "model_archive_sha256": "fa1367710767d36ed5cf13b4a449e20c35ffd12791c2e47c2e64142bfa55551a"
+}
