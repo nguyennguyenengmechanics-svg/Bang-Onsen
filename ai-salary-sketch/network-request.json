@@ -1,1 +1,6 @@
-{"purpose":"Vietnamese narration for AI salary explainer","required_hostname":"speech.platform.bing.com","runtime_observation":"HTTPS CONNECT denied with HTTP 403","draft_save":"unconfirmed: draft_not_editable","action":"Add hostname in environment network settings; apply changes, then retry via inherited proxy with TLS verification enabled."}
+{
+  "local_vietnamese_voice_working": true,
+  "required_network_for_local_voice": null,
+  "optional_neural_voice_hostname": "speech.platform.bing.com",
+  "previous_online_service_status": "HTTP CONNECT 403; no longer blocks local narration"
+}

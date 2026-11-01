@@ -11,18 +11,27 @@
   "copying": "new illustrations and character; reference media not included",
   "visual_checks": {
     "runtime_errors": 0,
+    "runtime_warnings": 0,
     "layout_issues": 0,
     "motion_errors": 0,
-    "contrast_checks_passed": 53,
-    "contrast_checks_total": 53
+    "contrast_checks_passed": 48,
+    "contrast_checks_total": 48
   },
-  "audio": "none; Vietnamese narration still blocked by network",
-  "caption_type": "timed summaries, not audio-aligned subtitles",
+  "audio": "Vietnamese synthesized locally with eSpeak NG; basic synthetic voice",
+  "caption_type": "Vietnamese text groups aligned to their matching synthesized phrases",
   "final_still_hold_seconds": 3.35,
   "fade_seconds": 0.8,
   "portable_rebuild_identical": true,
-  "final_mp4_decoded_entirely": true,
   "final_mp4_frames": 6576,
   "final_mp4_duration_seconds": 274,
-  "final_mp4_audio_streams": 0
+  "audio_phrases": 60,
+  "audio_lufs_integrated": -14.07,
+  "audio_true_peak_dbtp": -1.68,
+  "source_footer_lines_removed": true,
+  "final_mp4_decoded_entirely": true,
+  "final_mp4_audio_streams": 1,
+  "audio_language": "vie",
+  "speech_phrases_with_audio_verified": 60,
+  "quietest_phrase_rms_dbfs": -14.410456257367203,
+  "output_bytes": 20752640
 }

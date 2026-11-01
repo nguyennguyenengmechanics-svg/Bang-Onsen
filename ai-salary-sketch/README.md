@@ -1,36 +1,43 @@
-# Lương kỹ sư AI — bản hoạt hình giải thích
+# Lương kỹ sư AI — hoạt hình có lồng tiếng Việt
 
-Bản dựng lại theo phong cách video mẫu người dùng cung cấp: 16:9, nền giấy, nhân vật kỹ sư vẽ mới, sơ đồ và đồ vật xuất hiện nối tiếp. Thời lượng 4 phút 34 giây, 1280 × 720, 24 fps.
+4 phút 34 giây, 1280 × 720, 24 fps. Nhân vật kỹ sư vẽ mới, sơ đồ và đồ vật xuất hiện theo từng ý, tham khảo phong cách video mẫu người dùng gửi.
 
-## Thay đổi so với bản trước
+## Bản cập nhật
 
-- Thay bố cục thẻ dọc bằng 15 cảnh hoạt hình ngang, 60 diễn biến minh hoạ.
-- Một kỹ sư xuyên suốt câu chuyện: học, làm dữ liệu, sửa chatbot, triển khai sản phẩm, vận hành và chọn hướng nghề nghiệp.
-- Mỗi cảnh xây dần theo bốn ý, khoảng 4,25 giây một ý. Nhãn gắn trực tiếp với đồ vật, có mũi tên và đường đi.
-- Chữ viết tay Patrick Hand có đủ glyph tiếng Việt; chữ tóm ý dùng font sans cục bộ.
-- Giữ nguyên kịch bản chủ đề lương AI, không lấy âm thanh hoặc mascot từ mẫu TikTok.
+- Đã lồng tiếng Việt bằng eSpeak NG chạy cục bộ: giọng máy cơ bản, không phải giọng neural và không mô phỏng người dẫn của mẫu.
+- 60 cụm giọng đọc, ghép theo thời gian chữ xuất hiện; số và thuật ngữ được chuẩn hoá để phát âm rõ hơn.
+- Đã bỏ toàn bộ hai loại chú thích nguồn nhỏ ở cuối khung hình theo yêu cầu người dùng.
+- Thông tin nguồn và giới hạn xác minh vẫn được lưu trong tài liệu dự án.
 
-## Trạng thái
+## Nội dung dự án
 
-**Đây là bản dựng hình chưa có âm thanh.** Chữ tóm ý theo thời gian đọc, chưa phải phụ đề khớp giọng đọc. Dịch vụ đọc tiếng Việt vẫn bị mạng chặn; xem `network-request.json`. Cần có giọng đọc trước khi đồng bộ phụ đề, chọn sound effect nhỏ hơn giọng 10 dB và đo loudness −14 LUFS/đỉnh dưới −1 dBTP. Không có phép đo LUFS cho bản không audio.
+- `renders/Luong-ky-su-AI-hoat-hinh.mp4`: bản MP4 có tiếng trên GitHub.
+- `assets/narration-final.m4a`: giọng đọc đã cân âm lượng.
+- `spoken-narration.txt`, `voice-plan.json`: lời đọc thực tế và thời điểm đo từ số mẫu WAV.
+- `phu-de-vi.srt`: phụ đề tiếng Việt theo các cụm đọc.
+- `index.html`, `build.py`, `scenes.json`, `captions-short.json`: nguồn đồ hoạ và chữ.
+- `script.md`, `narration.txt`: kịch bản tham khảo đầy đủ; bản đọc thực tế dùng các câu tóm ý trong `spoken-narration.txt`.
+- `REFERENCE.md`, `DESIGN.md`, `source-notes.json`: tham chiếu phong cách, quy tắc hình và xuất xứ các mức lương.
+- `voice-loudness.json`, `verification.json`: bằng chứng kiểm tra âm thanh và bản xuất.
 
-Các mức lương giữ đúng phạm vi của phụ đề người dùng cung cấp, chưa được xác minh độc lập, chưa rõ năm và gross/net. Mức 390–650 triệu/tháng được đặt trong bối cảnh ngoại lệ ở doanh nghiệp rất lớn.
+## Chỉnh sửa và xuất lại
 
-## Xem và chỉnh sửa
-
-- `Luong-ky-su-AI-hoat-hinh.mp4`: file xuất.
-- `index.html`, `build.py`: nguồn dựng, tự chứa và có thể chỉnh sửa.
-- `scenes.json`, `captions-short.json`: dữ liệu lời dẫn và chữ tóm ý.
-- `script.md`, `narration.txt`: kịch bản viết lại.
-- `REFERENCE.md`, `DESIGN.md`: phân tích mẫu và quy tắc hình ảnh.
-- `source-notes.json`: truy nguyên các mức lương.
-
-Node.js 22+, Python 3 và Chromium/FFmpeg. Dùng checkout hiện có; không cần tạo worktree mới.
+Node.js 22+, Python 3, FFmpeg và Chrome/Chromium. Dùng checkout hiện có, không cần tạo worktree mới. Media, GSAP và font đều được lưu cục bộ.
 
 ```bash
 python3 build.py
 HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run check
-HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run render -- --output Luong-ky-su-AI-hoat-hinh.mp4 --fps 24 --quality high --workers 4
+HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run render -- --output Luong-ky-su-AI-long-tieng.mp4 --fps 24 --quality high --workers 4
 ```
 
-Chuyển cảnh 0,8 giây tạo chồng hình chủ ý, được đánh dấu trong các vùng nội dung. Khung kết dừng khoảng 3 giây rồi mờ 0,8 giây. Phông và GSAP đều nằm trong `assets/`, không cần tải lúc xuất.
+Nếu cần tạo lại giọng đọc, cài bộ đọc một lần rồi chạy các script; không cần kết nối dịch vụ đọc tiếng Việt trực tuyến:
+
+```bash
+python3 -m pip install --target voice-tools espeakng-loader==0.2.4
+python3 produce_voice.py
+python3 master_voice.py
+```
+
+`master_voice.py` đo và cân lại trên AAC thực tế. Khi thay đổi câu chữ phải kiểm tra lại thời lượng cụm, đồng bộ hình và đo lại MP4 sau mã hoá. Bộ công cụ và WAV trung gian không được đóng gói trong repository.
+
+Các mức lương chỉ là tham khảo theo phụ đề người dùng cung cấp, chưa được xác minh độc lập, chưa rõ năm và gross/net. Mức 390–650 triệu/tháng là trường hợp ngoại lệ tại doanh nghiệp rất lớn. Bản mới không đưa phần luật và thuế chưa xác minh vào nội dung.

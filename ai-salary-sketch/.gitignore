@@ -1,0 +1,11 @@
+node_modules/
+.hyperframes/
+*.log
+review/
+final-review/
+*.mp4
+voice-tools/
+assets/voice/
+assets/*-sample.wav
+assets/narration-*.wav
+assets/*.wav

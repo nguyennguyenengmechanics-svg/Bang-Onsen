@@ -1,0 +1,166 @@
+{
+  "initial": {
+    "input_i": "-26.91",
+    "input_tp": "-10.51",
+    "input_lra": "4.60",
+    "input_thresh": "-37.09",
+    "output_i": "-15.10",
+    "output_tp": "-1.50",
+    "output_lra": "4.50",
+    "output_thresh": "-25.28",
+    "normalization_type": "dynamic",
+    "target_offset": "1.10"
+  },
+  "aac_calibration": [
+    {
+      "gain_db": 12.91,
+      "measurement": {
+        "input_i": "-15.05",
+        "input_tp": "-1.68",
+        "input_lra": "4.70",
+        "input_thresh": "-25.23",
+        "output_i": "-14.22",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.39",
+        "normalization_type": "dynamic",
+        "target_offset": "0.22"
+      }
+    },
+    {
+      "gain_db": 13.96,
+      "measurement": {
+        "input_i": "-14.64",
+        "input_tp": "-1.68",
+        "input_lra": "4.50",
+        "input_thresh": "-24.82",
+        "output_i": "-13.96",
+        "output_tp": "-1.50",
+        "output_lra": "4.50",
+        "output_thresh": "-24.14",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.04"
+      }
+    },
+    {
+      "gain_db": 14.600000000000001,
+      "measurement": {
+        "input_i": "-14.44",
+        "input_tp": "-1.69",
+        "input_lra": "4.50",
+        "input_thresh": "-24.62",
+        "output_i": "-13.92",
+        "output_tp": "-1.50",
+        "output_lra": "4.70",
+        "output_thresh": "-24.10",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.08"
+      }
+    },
+    {
+      "gain_db": 15.040000000000001,
+      "measurement": {
+        "input_i": "-14.32",
+        "input_tp": "-1.67",
+        "input_lra": "4.50",
+        "input_thresh": "-24.50",
+        "output_i": "-13.91",
+        "output_tp": "-1.50",
+        "output_lra": "4.70",
+        "output_thresh": "-24.09",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    {
+      "gain_db": 15.360000000000001,
+      "measurement": {
+        "input_i": "-14.24",
+        "input_tp": "-1.68",
+        "input_lra": "4.50",
+        "input_thresh": "-24.42",
+        "output_i": "-13.91",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.08",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    {
+      "gain_db": 15.600000000000001,
+      "measurement": {
+        "input_i": "-14.19",
+        "input_tp": "-1.68",
+        "input_lra": "4.50",
+        "input_thresh": "-24.36",
+        "output_i": "-13.91",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.08",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    {
+      "gain_db": 15.790000000000001,
+      "measurement": {
+        "input_i": "-14.14",
+        "input_tp": "-1.68",
+        "input_lra": "4.50",
+        "input_thresh": "-24.31",
+        "output_i": "-13.91",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.07",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    {
+      "gain_db": 15.930000000000001,
+      "measurement": {
+        "input_i": "-14.12",
+        "input_tp": "-1.67",
+        "input_lra": "4.50",
+        "input_thresh": "-24.28",
+        "output_i": "-13.90",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.07",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.10"
+      }
+    },
+    {
+      "gain_db": 16.05,
+      "measurement": {
+        "input_i": "-14.10",
+        "input_tp": "-1.69",
+        "input_lra": "4.50",
+        "input_thresh": "-24.26",
+        "output_i": "-13.90",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.07",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.10"
+      }
+    },
+    {
+      "gain_db": 16.15,
+      "measurement": {
+        "input_i": "-14.07",
+        "input_tp": "-1.68",
+        "input_lra": "4.60",
+        "input_thresh": "-24.23",
+        "output_i": "-13.90",
+        "output_tp": "-1.50",
+        "output_lra": "4.60",
+        "output_thresh": "-24.06",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.10"
+      }
+    }
+  ]
+}

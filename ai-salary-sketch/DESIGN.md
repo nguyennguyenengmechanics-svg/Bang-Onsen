@@ -24,3 +24,6 @@ Mỗi cảnh có bốn diễn biến, khớp bốn ý tóm tắt thay vì giữ 
 - Không khẳng định số liệu từ phụ đề là thống kê đã xác minh.
 - Không để chuyển động che chữ hoặc chữ đè lên nhân vật.
 - Không dùng chuyển động giật, thẻ tắt đột ngột hoặc cảnh lóe vài khung.
+
+## Yêu cầu cập nhật của người dùng
+Không hiển thị các dòng chú thích nguồn nhỏ ở cuối khung hình (cả dòng về mức lương và dòng “Minh hoạ nghề nghiệp…”). Thông tin nguồn chỉ nằm trong tài liệu dự án.

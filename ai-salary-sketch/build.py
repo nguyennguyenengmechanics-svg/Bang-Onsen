@@ -127,14 +127,13 @@ H=['''<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="vie
 </style></head><body>''',f'<div id="root" data-composition-id="ai-salary-sketch" data-start="0" data-duration="{TOTAL}" data-width="1280" data-height="720" data-fps="24">']
 for i,(s,art) in enumerate(zip(SCENES,A)):
  start=i*D;dur=D+.8 if i<14 else 22
- source='Mức lương tham khảo từ phụ đề nguồn • Chưa xác minh độc lập • Chưa rõ năm, gross/net' if i in [0,3,4,6,8,10,11,12] else 'Minh hoạ nghề nghiệp • Biên soạn lại từ phụ đề người dùng cung cấp'
- H.append(f'<section id="s{i}" class="clip scene" data-start="{start}" data-duration="{dur}" data-track-index="{i%2}" style="z-index:{i+1}"><div class="scene-content" data-layout-allow-overlap><div class="eyebrow">{headers[i][0]}</div><h1 class="headline">{headers[i][1]}</h1><svg class="stage" viewBox="0 0 1140 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{html.escape(headers[i][1])}" data-layout-allow-overflow><path class="ground" d="M-16 366 Q280 363 570 367 T1158 365" style="opacity:{0 if i==5 else 1}"/>{art}</svg><div class="source">{source}</div></div><div class="corner" data-layout-allow-overlap>{i+1:02d} / 15</div></section>')
+ H.append(f'<section id="s{i}" class="clip scene" data-start="{start}" data-duration="{dur}" data-track-index="{i%2}" style="z-index:{i+1}"><div class="scene-content" data-layout-allow-overlap><div class="eyebrow">{headers[i][0]}</div><h1 class="headline">{headers[i][1]}</h1><svg class="stage" viewBox="0 0 1140 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{html.escape(headers[i][1])}" data-layout-allow-overflow><path class="ground" d="M-16 366 Q280 363 570 367 T1158 365" style="opacity:{0 if i==5 else 1}"/>{art}</svg></div><div class="corner" data-layout-allow-overlap>{i+1:02d} / 15</div></section>')
  for j,text in enumerate(CAPS[i]):
   st=start+.85+j*4.25;escaped=html.escape(text)
   key=next((w for w in ['kinh nghiệm','dữ liệu','trách nhiệm','tham khảo','sản phẩm','AI','dự án','không'] if w in text),None)
   if key:escaped=escaped.replace(key,f'<mark>{key}</mark>',1)
   H.append(f'<div id="c{i}-{j}" class="clip caption" data-start="{st:.2f}" data-duration="4.25" data-track-index="3" data-layout-allow-caption-zone style="z-index:200"><span>{escaped}</span></div>')
-H.append('<div id="fade" class="fade" data-layout-ignore></div></div><script>const tl=gsap.timeline({paused:true});')
+H.append('<audio id="voiceover" src="assets/narration-final.m4a" data-start="0" data-duration="274" data-track-index="2" data-volume="1"></audio><div id="fade" class="fade" data-layout-ignore></div></div><script>const tl=gsap.timeline({paused:true});')
 for i in range(15):
  st=i*D
  if i>0:H.append(f"tl.fromTo('#s{i}',{{opacity:0}},{{opacity:1,duration:.8,ease:'sine.inOut'}},{st});")

@@ -1,0 +1,239 @@
+1
+00:00:00,930 --> 00:00:04,153
+Tin tuyển dụng có mức 45–50 triệu/tháng.
+
+2
+00:00:05,180 --> 00:00:07,567
+Một số nơi thực tập lại chưa có phụ cấp.
+
+3
+00:00:09,430 --> 00:00:11,737
+Hai trường hợp này không nhất thiết mâu thuẫn.
+
+4
+00:00:13,680 --> 00:00:15,808
+Khác biệt nằm ở kinh nghiệm và trách nhiệm.
+
+5
+00:00:18,930 --> 00:00:21,834
+Sinh viên → thực tập → người mới vào nghề.
+
+6
+00:00:23,180 --> 00:00:25,604
+Tiếp theo: có kinh nghiệm → cấp cao.
+
+7
+00:00:27,430 --> 00:00:29,739
+Rồi chọn quản lý hoặc đào sâu chuyên môn.
+
+8
+00:00:31,680 --> 00:00:33,496
+Đây không phải lịch thăng tiến cố định.
+
+9
+00:00:36,930 --> 00:00:39,374
+Ưu tiên toán, lập trình và cách đánh giá.
+
+10
+00:00:41,180 --> 00:00:43,577
+Python, đại số tuyến tính và xác suất.
+
+11
+00:00:45,430 --> 00:00:47,923
+Hiểu mô hình quan trọng hơn thuộc tên công cụ.
+
+12
+00:00:49,680 --> 00:00:52,706
+Học công nghệ thông tin cũng có thể rẽ sang AI.
+
+13
+00:00:54,930 --> 00:00:57,789
+0–12 triệu là ví dụ từ nhiều nơi tuyển.
+
+14
+00:00:59,180 --> 00:01:01,582
+Không phải thống kê đại diện mọi thực tập sinh.
+
+15
+00:01:03,430 --> 00:01:05,941
+Công việc gồm làm sạch dữ liệu và gán nhãn.
+
+16
+00:01:07,680 --> 00:01:10,368
+Hỏi thêm: mình sẽ đóng góp dự án thật nào?
+
+17
+00:01:12,930 --> 00:01:16,179
+Khung tham khảo trong nguồn: 12–25 triệu/tháng.
+
+18
+00:01:17,180 --> 00:01:19,784
+Cần nền tảng học máy và dự án giải thích được.
+
+19
+00:01:21,430 --> 00:01:24,378
+Chatbot phải đúng chính sách, không chỉ nói trôi chảy.
+
+20
+00:01:25,680 --> 00:01:28,582
+Đo lỗi → sửa dữ liệu → kiểm tra lại.
+
+21
+00:01:30,930 --> 00:01:33,843
+Một hướng: tích hợp mô hình có sẵn vào sản phẩm.
+
+22
+00:01:35,180 --> 00:01:37,973
+Hướng khác: tự huấn luyện mô hình trên dữ liệu.
+
+23
+00:01:39,430 --> 00:01:41,445
+Cả hai đều cần kỹ năng chuyên môn.
+
+24
+00:01:43,680 --> 00:01:46,037
+Đọc mô tả công việc trước khi so lương.
+
+25
+00:01:48,930 --> 00:01:52,062
+Nguồn nêu 30–60 triệu cho nhóm 2–4 năm.
+
+26
+00:01:53,180 --> 00:01:55,668
+Khác biệt: đưa giải pháp vào sử dụng thật.
+
+27
+00:01:57,430 --> 00:02:00,077
+Cần hiểu dữ liệu, chi phí và lỗi vận hành.
+
+28
+00:02:01,680 --> 00:02:03,849
+Kinh nghiệm phải thể hiện qua việc đã làm.
+
+29
+00:02:06,930 --> 00:02:09,507
+Thiếu người có kinh nghiệm, vẫn đông hồ sơ mới.
+
+30
+00:02:11,180 --> 00:02:13,566
+Doanh nghiệp cần người tự xử lý được vấn đề.
+
+31
+00:02:15,430 --> 00:02:18,076
+Tiếng Anh và phối hợp khách hàng cũng quan trọng.
+
+32
+00:02:19,680 --> 00:02:21,935
+Lương cao không có nghĩa cửa vào luôn dễ.
+
+33
+00:02:24,930 --> 00:02:28,182
+Khung cấp cao trong nguồn: 55–80 triệu/tháng.
+
+34
+00:02:29,180 --> 00:02:31,847
+Phạm vi mở rộng sang thiết kế cả hệ thống.
+
+35
+00:02:33,430 --> 00:02:36,263
+Giám sát chất lượng, chi phí và thời điểm sửa.
+
+36
+00:02:37,680 --> 00:02:39,912
+Thu nhập cao đi cùng trách nhiệm lớn hơn.
+
+37
+00:02:42,930 --> 00:02:45,231
+Bạn muốn dẫn đội ngũ hay đào sâu kỹ thuật?
+
+38
+00:02:47,180 --> 00:02:50,182
+Quản lý tập trung tuyển dụng, phân công và ưu tiên.
+
+39
+00:02:51,430 --> 00:02:54,097
+Chuyên gia giải bài toán khó, xây tiêu chuẩn.
+
+40
+00:02:55,680 --> 00:02:57,874
+Chọn theo công việc mình muốn làm lâu dài.
+
+41
+00:03:00,930 --> 00:03:04,188
+Nguồn nhắc quản lý AI: 70–120 triệu trở lên.
+
+42
+00:03:05,180 --> 00:03:07,311
+Không phải mọi chức danh đều có mức này.
+
+43
+00:03:09,430 --> 00:03:12,251
+Quy mô đội và phạm vi quyết định rất quan trọng.
+
+44
+00:03:13,680 --> 00:03:16,300
+So trách nhiệm, đừng chỉ so tên chức danh.
+
+45
+00:03:18,930 --> 00:03:22,189
+390–650 triệu là trường hợp đặc biệt trong nguồn.
+
+46
+00:03:23,180 --> 00:03:25,144
+Chỉ nhắc tới tại doanh nghiệp rất lớn.
+
+47
+00:03:27,430 --> 00:03:30,201
+Lãnh đạo quyết định chiến lược, ngân sách và tổ chức.
+
+48
+00:03:31,680 --> 00:03:34,206
+Không dùng ngoại lệ làm kỳ vọng cho người mới.
+
+49
+00:03:36,930 --> 00:03:39,365
+Cần phân biệt lương trước thuế và sau thuế.
+
+50
+00:03:41,180 --> 00:03:43,914
+Có bao gồm thưởng, cổ phiếu và bảo hiểm không?
+
+51
+00:03:45,430 --> 00:03:48,439
+Địa điểm, loại công ty, năm khảo sát đều ảnh hưởng.
+
+52
+00:03:49,680 --> 00:03:51,694
+Số liệu nguồn chưa được kiểm chứng độc lập.
+
+53
+00:03:54,930 --> 00:03:57,317
+Làm một bài toán nhỏ để người khác thử được.
+
+54
+00:03:59,180 --> 00:04:02,072
+Ghi rõ dữ liệu, cách đánh giá và lỗi còn lại.
+
+55
+00:04:03,430 --> 00:04:06,137
+Hỏi nơi thực tập về người hướng dẫn, sản phẩm.
+
+56
+00:04:07,680 --> 00:04:10,530
+Một dự án rõ ràng hơn danh sách tên công cụ.
+
+57
+00:04:12,930 --> 00:04:15,795
+Cơ hội có thật, nhưng lương cao cần tích luỹ.
+
+58
+00:04:17,180 --> 00:04:20,029
+Học nền tảng, làm dự án và chịu trách nhiệm.
+
+59
+00:04:21,430 --> 00:04:24,053
+Chọn kỹ năng cần học trước chức danh muốn có.
+
+60
+00:04:25,680 --> 00:04:27,927
+Dự án thật tiếp theo của bạn là gì?
