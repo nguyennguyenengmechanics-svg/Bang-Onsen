@@ -1,0 +1,21 @@
+{
+  "status": "visual draft, audio blocked",
+  "duration_seconds": 274,
+  "fps": 24,
+  "dimensions": [
+    720,
+    1280
+  ],
+  "source_verification": "user transcript only, year and gross/net unspecified",
+  "validated": [
+    "runtime",
+    "layout",
+    "motion",
+    "contrast:47/47 text checks WCAG AA"
+  ],
+  "planned_final_still_hold_seconds": 2.4,
+  "card_exit_fade_seconds": 0.8,
+  "caption_mode": "timed reading summaries; not voice-aligned subtitles",
+  "audio_status": "no audio, LUFS not applicable",
+  "blocker": "network denies speech.platform.bing.com; draft update not confirmed"
+}

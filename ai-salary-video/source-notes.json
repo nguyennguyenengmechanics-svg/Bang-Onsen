@@ -1,0 +1,69 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=9mbIKLKq9UM",
+  "source_type": "User-provided transcript; video not accessed",
+  "verification": "Not independently verified; source publication year unavailable",
+  "salary_unit": "Triệu đồng/tháng; gross/net unspecified in source",
+  "levels": [
+    {
+      "level": "Thực tập",
+      "range": [
+        0,
+        12
+      ],
+      "timestamp": "04:19–05:01",
+      "caveat": "Ví dụ các tin tuyển dụng khác nhau; không phải phân bố lương thị trường"
+    },
+    {
+      "level": "Mới vào nghề",
+      "years": "0–2 năm",
+      "range": [
+        12,
+        25
+      ],
+      "timestamp": "05:35–05:55"
+    },
+    {
+      "level": "Có kinh nghiệm",
+      "years": "2–4 năm",
+      "range": [
+        30,
+        60
+      ],
+      "timestamp": "08:51–09:04"
+    },
+    {
+      "level": "Cấp cao",
+      "years": "5–8 năm",
+      "range": [
+        55,
+        80
+      ],
+      "timestamp": "10:12–10:49"
+    },
+    {
+      "level": "Quản lý AI",
+      "range": [
+        70,
+        120
+      ],
+      "open_upper_bound": true,
+      "timestamp": "13:33–13:39"
+    },
+    {
+      "level": "Giám đốc AI",
+      "range": [
+        390,
+        650
+      ],
+      "timestamp": "15:39–15:58",
+      "caveat": "Mức đãi ngộ đặc biệt tại doanh nghiệp rất lớn; không đại diện mức phổ biến"
+    }
+  ],
+  "omit_until_verified": [
+    "Điểm chuẩn và học phí: chưa xác định năm áp dụng",
+    "Luật AI, nghị định và miễn thuế: chưa có văn bản gốc để kiểm tra",
+    "Thông tin bổ nhiệm, tên riêng phiên âm và gói đãi ngộ nghiên cứu quốc tế",
+    "So sánh giá nhà có mốc năm không xác định"
+  ],
+  "editorial_takeaway": "Thiếu nhân sự đưa AI vào vận hành thực tế không đồng nghĩa thiếu mọi ứng viên mới tốt nghiệp."
+}
