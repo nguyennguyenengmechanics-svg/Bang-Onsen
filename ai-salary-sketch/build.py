@@ -2,7 +2,7 @@ from pathlib import Path
 import json,html,math,shutil
 P=Path(__file__).parent
 OLD=P
-SCENES=json.loads((OLD/'scenes.json').read_text());CAPS=json.loads((OLD/'captions-short.json').read_text())
+SCENES=json.loads((OLD/'scenes.json').read_text());PLAN=json.loads((P/'fluent-timing.json').read_text());CAPS=[[q['text'] for q in t['phrases']] for t in PLAN['scenes']]
 INK='#263A36'; TEAL='#488B80'; GOLD='#E9AF62'; RED='#AB5546'; GREEN='#C7DAD0'; PAPER='#F6ECD9'
 def txt(x,y,t,size=30,color=INK,anchor='middle',cls=''):
  return f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-size="{size}" fill="{color}" class="{cls}">{html.escape(str(t))}</text>'
@@ -119,39 +119,40 @@ A.append(stage(1,human(30,155,.86,'point')+node(275,292,'Học',GREEN,140))+
  stage(3,arrow(643,200,754,144)+node(862,125,'Vận hành',GREEN,180))+
  stage(4,arrow(964,121,1033,86)+txt(975,51,'TRÁCH NHIỆM',38)+txt(630,342,'Giá trị tạo ra → thu nhập',53,TEAL)+txt(630,394,'Dự án thật tiếp theo của bạn là gì?',35)))
 assert len(A)==15
-D=18;TOTAL=274
+TOTAL=PLAN['total_duration']
 headers=[('LƯƠNG KỸ SƯ AI','Lương cao, sao người mới vẫn khó vào?'),('BẢN ĐỒ NGHỀ','Một hành trình, bảy nấc trách nhiệm'),('01 · SINH VIÊN','Xây nền móng trước khi chạy theo công cụ'),('02 · THỰC TẬP','Việc ít hào nhoáng lại rất quan trọng'),('03 · MỚI VÀO NGHỀ','Làm cho sản phẩm trả lời đúng'),('ĐỌC KỸ CÔNG VIỆC','Cùng tên “AI”, không hẳn cùng việc'),('04 · CÓ KINH NGHIỆM','Bắc cầu từ đồ án đến người dùng thật'),('GIẢI NGHỊCH LÝ','Thiếu người ở đâu? Cạnh tranh ở đâu?'),('05 · KỸ SƯ CẤP CAO','Thiết kế, theo dõi, chịu trách nhiệm'),('NGÃ RẼ NGHỀ NGHIỆP','Quản người hay đào sâu chuyên môn?'),('06 · QUẢN LÝ / CHUYÊN GIA','Đừng chỉ nhìn tên chức danh'),('07 · LÃNH ĐẠO AI','Con số lớn cần đúng bối cảnh'),('ĐỌC SỐ LIỆU','Một khoảng lương chưa nói hết'),('BƯỚC TIẾP THEO','Làm một sản phẩm kiểm chứng được'),('ĐIỀU CẦN NHỚ','Thu nhập đi cùng giá trị tạo ra')]
 H=['''<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=1280,height=720"><script src="assets/gsap.min.js"></script><style>
 @font-face{font-family:'Patrick Hand';src:url('assets/fonts/PatrickHand.ttf')}@font-face{font-family:'Journal Sans';src:url('assets/fonts/JournalSans.ttf')}
-*{box-sizing:border-box;margin:0;padding:0}html,body{width:1280px;height:720px;overflow:hidden;background:#F6ECD9}#root{width:1280px;height:720px;position:relative;color:#263A36;font-family:'Patrick Hand'}.clip{position:absolute;inset:0}.scene{opacity:0;background:#F6ECD9}#s0{opacity:1}.scene:nth-child(3n+2){background:#EDF0E2}.scene:nth-child(3n+3){background:#F4E3D4}.scene-content{width:100%;height:100%;padding:26px 60px 122px;display:flex;flex-direction:column;gap:8px}.eyebrow{font:22px/1.2 'Journal Sans';letter-spacing:2px;height:28px;color:#466C61}.headline{font-size:54px;line-height:1.14;font-weight:400;height:66px;letter-spacing:.1px}.stage{width:1140px;height:400px;flex-shrink:0;overflow:visible;stroke-linecap:round;stroke-linejoin:round}.stage text{font-family:'Patrick Hand';stroke:none}.source{font:20px/1.3 'Journal Sans';text-align:right;height:27px;color:#405D53}.caption{position:absolute;inset:auto;left:75px;top:610px;width:1130px;min-height:72px;padding:11px 24px;display:flex;align-items:center;justify-content:center;font:30px/1.4 'Journal Sans';text-align:center;color:#263A36;background:#FFF9EF;border:2px solid #263A36;border-radius:12px;opacity:0}.caption mark{background:none;color:#7D382B;font-weight:bold}.corner{position:absolute;right:32px;bottom:12px;font:19px 'Journal Sans';color:#405D53}.fade{position:absolute;inset:0;background:#182B25;opacity:0;z-index:999}.ground{stroke:#263A36;stroke-width:2;fill:none}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1280px;height:720px;overflow:hidden;background:#F6ECD9}#root{width:1280px;height:720px;position:relative;color:#263A36;font-family:'Patrick Hand'}.clip{position:absolute;inset:0}.scene{opacity:0;background:#F6ECD9}#s0{opacity:1}.scene:nth-child(3n+2){background:#EDF0E2}.scene:nth-child(3n+3){background:#F4E3D4}.scene-content{width:100%;height:100%;padding:26px 60px 122px;display:flex;flex-direction:column;gap:8px}.eyebrow{font:22px/1.2 'Journal Sans';letter-spacing:2px;height:28px;color:#466C61}.headline{font-size:54px;line-height:1.14;font-weight:400;height:66px;letter-spacing:.1px}.stage{width:1140px;height:400px;flex-shrink:0;overflow:visible;stroke-linecap:round;stroke-linejoin:round}.stage text{font-family:'Patrick Hand';stroke:none}.source{font:20px/1.3 'Journal Sans';text-align:right;height:27px;color:#405D53}.caption{position:absolute;inset:auto;left:75px;top:580px;width:1130px;min-height:82px;padding:8px 24px;display:flex;align-items:center;justify-content:center;font:29px/1.28 'Journal Sans';text-align:center;color:#263A36;background:#FFF9EF;border:2px solid #263A36;border-radius:12px;opacity:0}.caption mark{background:none;color:#7D382B;font-weight:bold}.corner{display:none;position:absolute;right:32px;bottom:12px;font:19px 'Journal Sans';color:#405D53}.fade{position:absolute;inset:0;background:#182B25;opacity:0;z-index:999}.ground{stroke:#263A36;stroke-width:2;fill:none}
 </style></head><body>''',f'<div id="root" data-composition-id="ai-salary-sketch" data-start="0" data-duration="{TOTAL}" data-width="1280" data-height="720" data-fps="24">']
 for i,(s,art) in enumerate(zip(SCENES,A)):
- start=i*D;dur=D+.8 if i<14 else 22
+ timing=PLAN['scenes'][i];start=timing['start'];dur=timing['duration']+.8 if i<14 else TOTAL-start
  H.append(f'<section id="s{i}" class="clip scene" data-start="{start}" data-duration="{dur}" data-track-index="{i%2}" style="z-index:{i+1}"><div class="scene-content" data-layout-allow-overlap><div class="eyebrow">{headers[i][0]}</div><h1 class="headline">{headers[i][1]}</h1><svg class="stage" viewBox="0 0 1140 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{html.escape(headers[i][1])}" data-layout-allow-overflow><path class="ground" d="M-16 366 Q280 363 570 367 T1158 365" style="opacity:{0 if i==5 else 1}"/>{art}</svg></div><div class="corner" data-layout-allow-overlap>{i+1:02d} / 15</div></section>')
  for j,text in enumerate(CAPS[i]):
-  st=start+.85+j*4.25;escaped=html.escape(text)
+  phrase=timing['phrases'][j];st=phrase['start'];caption_duration=phrase['end']-st;escaped=html.escape(text)
   key=next((w for w in ['kinh nghiệm','dữ liệu','trách nhiệm','tham khảo','sản phẩm','AI','dự án','không'] if w in text),None)
   if key:escaped=escaped.replace(key,f'<mark>{key}</mark>',1)
-  H.append(f'<div id="c{i}-{j}" class="clip caption" data-start="{st:.2f}" data-duration="4.25" data-track-index="3" data-layout-allow-caption-zone style="z-index:200"><span>{escaped}</span></div>')
-H.append('<audio id="voiceover" src="assets/narration-final.m4a" data-start="0" data-duration="274" data-track-index="2" data-volume="1"></audio><div id="fade" class="fade" data-layout-ignore></div></div><script>const tl=gsap.timeline({paused:true});')
+  H.append(f'<div id="c{i}-{j}" class="clip caption" data-start="{st:.6f}" data-duration="{caption_duration:.6f}" data-track-index="3" data-layout-allow-caption-zone style="z-index:200"><span>{escaped}</span></div>')
+H.append(f'<audio id="voiceover" src="assets/narration-final.m4a" data-start="0" data-duration="{TOTAL:.6f}" data-track-index="2" data-volume="1"></audio><div id="fade" class="fade" data-layout-ignore></div></div><script>const tl=gsap.timeline({{paused:true}});')
 for i in range(15):
- st=i*D
+ timing=PLAN['scenes'][i];st=timing['start']
  if i>0:H.append(f"tl.fromTo('#s{i}',{{opacity:0}},{{opacity:1,duration:.8,ease:'sine.inOut'}},{st});")
  H.append(f"tl.from('#s{i} .headline',{{y:8,duration:.65,ease:'power3.out'}},{st+.12});") if i==0 else H.append(f"tl.from('#s{i} .headline',{{opacity:0,y:8,duration:.65,ease:'power3.out'}},{st+.12});")
  for j in range(1,5):
-  at=st+.35+(j-1)*4.25
-  H.append(f"tl.from('#s{i} .beat-{j}',{{opacity:0,y:5,duration:.65,ease:'power2.out'}},{at:.2f});")
+  at=max(st+.25,timing['phrases'][j-1]['start']-.5)
+  H.append(f"tl.from('#s{i} .beat-{j}',{{opacity:0,y:5,duration:.65,ease:'power2.out'}},{at:.6f});")
   H.append(f"if(document.querySelector('#s{i} .beat-{j} .draw'))tl.from('#s{i} .beat-{j} .draw',{{strokeDasharray:1500,strokeDashoffset:1500,duration:1.05,ease:'sine.inOut'}},{at+.14:.2f});")
- H.append(f"tl.to('#s{i} .human',{{y:'-=2.5',duration:1.7,repeat:9,yoyo:true,ease:'sine.inOut'}},{st+.8});")
+ idle=(timing['voice_end']-st-.7)/10
+ H.append(f"tl.to('#s{i} .human',{{y:'-=2.5',duration:{idle:.6f},repeat:9,yoyo:true,ease:'sine.inOut'}},{st+.8});")
  if i in {0:2,3:1,4:1,6:1,8:1,10:1,11:3}:
-  sat=st+.4+({0:2,3:1,4:1,6:1,8:1,10:1,11:3}[i]-1)*4.25
+  sat=max(st+.3,timing['phrases'][{0:2,3:1,4:1,6:1,8:1,10:1,11:3}[i]-1]['start']-.45)
   H.append(f"tl.from('#s{i} .salary',{{rotation:-2,scale:.94,transformOrigin:'center',duration:.7,ease:'back.out(1.15)'}},{sat});")
  for j in range(4):
-  at=st+.85+j*4.25
-  H.append(f"tl.fromTo('#c{i}-{j}',{{opacity:0}},{{opacity:1,duration:.22,ease:'sine.out'}},{at:.2f});")
-  H.append(f"tl.to('#c{i}-{j}',{{opacity:0,duration:.8,ease:'sine.inOut'}},{at+3.45:.2f});")
-H.append("tl.to('#fade',{opacity:1,duration:.8,ease:'sine.inOut'},273.2);window.__timelines={'ai-salary-sketch':tl};tl.seek(0);</script></body></html>")
+  at=timing['phrases'][j]['start'];end=timing['phrases'][j]['end']
+  H.append(f"tl.fromTo('#c{i}-{j}',{{opacity:0}},{{opacity:1,duration:.14,ease:'sine.out'}},{at:.6f});")
+  H.append(f"tl.to('#c{i}-{j}',{{opacity:0,duration:.14,ease:'sine.inOut'}},{end-.14:.6f});")
+H.append(f"tl.to('#fade',{{opacity:1,duration:.8,ease:'sine.inOut'}},{TOTAL-.8:.6f});window.__timelines={{'ai-salary-sketch':tl}};tl.seek(0);</script></body></html>")
 (P/'index.html').write_text('\n'.join(H))
 (P/'package.json').write_text(json.dumps({'name':'ai-salary-sketch','private':True,'scripts':{'check':'npx --yes hyperframes@0.8.223 check','render':'npx --yes hyperframes@0.8.223 render','dev':'npx --yes hyperframes@0.8.223 preview'}},indent=2))
 # Script, caption summaries and source notes are local editable project inputs.
-print('Built 15 scenes, 60 staged illustration beats, 274 seconds, 1280x720.')
+print(f'Built 15 scenes, 60 speech-aligned beats, {TOTAL:.3f} seconds, 1280x720.')

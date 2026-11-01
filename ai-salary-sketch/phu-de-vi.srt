@@ -1,239 +1,239 @@
 1
-00:00:00,930 --> 00:00:04,153
-Tin tuyển dụng có mức 45–50 triệu/tháng.
+00:00:00,850 --> 00:00:05,011
+Bạn vừa tốt nghiệp ngành trí tuệ nhân tạo, nhưng tìm công việc đầu tiên vẫn không dễ.
 
 2
-00:00:05,180 --> 00:00:07,567
-Một số nơi thực tập lại chưa có phụ cấp.
+00:00:05,011 --> 00:00:10,279
+Trong khi đó, có doanh nghiệp chào mức lương 45–50 triệu đồng mỗi tháng mà vẫn khó tuyển người.
 
 3
-00:00:09,430 --> 00:00:11,737
-Hai trường hợp này không nhất thiết mâu thuẫn.
+00:00:10,279 --> 00:00:15,058
+Đọc kỹ yêu cầu mới thấy, họ cần người từng triển khai sản phẩm, chứ không chỉ hoàn thành đồ án.
 
 4
-00:00:13,680 --> 00:00:15,808
-Khác biệt nằm ở kinh nghiệm và trách nhiệm.
+00:00:15,058 --> 00:00:19,089
+Vậy doanh nghiệp đang thiếu ai, và người mới cần làm gì để bước qua khoảng cách này?
 
 5
-00:00:18,930 --> 00:00:21,834
-Sinh viên → thực tập → người mới vào nghề.
+00:00:20,489 --> 00:00:25,159
+Hành trình thường bắt đầu từ sinh viên và thực tập sinh, nơi bạn xây những kỹ năng đầu tiên.
 
 6
-00:00:23,180 --> 00:00:25,604
-Tiếp theo: có kinh nghiệm → cấp cao.
+00:00:25,159 --> 00:00:28,970
+Khi mới đi làm, điều quan trọng là biết biến kiến thức thành một tính năng có ích.
 
 7
-00:00:27,430 --> 00:00:29,739
-Rồi chọn quản lý hoặc đào sâu chuyên môn.
+00:00:28,970 --> 00:00:33,280
+Càng có kinh nghiệm, bạn càng phải chịu trách nhiệm về chất lượng và cách hệ thống vận hành.
 
 8
-00:00:31,680 --> 00:00:33,496
-Đây không phải lịch thăng tiến cố định.
+00:00:33,280 --> 00:00:37,858
+Sau đó mới tới chuyên gia, quản lý hoặc lãnh đạo; không có lịch thăng tiến giống nhau cho tất cả.
 
 9
-00:00:36,930 --> 00:00:39,374
-Ưu tiên toán, lập trình và cách đánh giá.
+00:00:39,258 --> 00:00:43,139
+Ở giai đoạn đi học, hãy nắm vững lập trình trước khi chạy theo những công cụ mới nhất.
 
 10
-00:00:41,180 --> 00:00:43,577
-Python, đại số tuyến tính và xác suất.
+00:00:43,139 --> 00:00:47,250
+Toán và xác suất giúp bạn hiểu mô hình học như thế nào, thay vì chỉ biết bấm chạy.
 
 11
-00:00:45,430 --> 00:00:47,923
-Hiểu mô hình quan trọng hơn thuộc tên công cụ.
+00:00:47,250 --> 00:00:51,610
+Bạn cũng cần biết dữ liệu đến từ đâu và vì sao dữ liệu sai làm kết quả sai.
 
 12
-00:00:49,680 --> 00:00:52,706
-Học công nghệ thông tin cũng có thể rẽ sang AI.
+00:00:51,610 --> 00:00:56,303
+Cuối cùng, hãy tập đánh giá kết quả; một mô hình nói trôi chảy chưa chắc đã trả lời đúng.
 
 13
-00:00:54,930 --> 00:00:57,789
-0–12 triệu là ví dụ từ nhiều nơi tuyển.
+00:00:57,703 --> 00:01:02,472
+Thực tập là lúc gặp dữ liệu thật, với mức phụ cấp rất khác nhau, có nơi từ 0 đến 12 triệu.
 
 14
-00:00:59,180 --> 00:01:01,582
-Không phải thống kê đại diện mọi thực tập sinh.
+00:01:02,472 --> 00:01:05,924
+Bạn có thể bắt đầu bằng việc thu thập và làm sạch hàng nghìn tấm ảnh.
 
 15
-00:01:03,430 --> 00:01:05,941
-Công việc gồm làm sạch dữ liệu và gán nhãn.
+00:01:05,924 --> 00:01:10,294
+Sau đó là gán nhãn, để máy biết đâu là đối tượng cần nhận diện và đâu là lỗi.
 
 16
-00:01:07,680 --> 00:01:10,368
-Hỏi thêm: mình sẽ đóng góp dự án thật nào?
+00:01:10,294 --> 00:01:14,978
+Công việc này ít hào nhoáng, nhưng dữ liệu không đúng thì mô hình tốt đến mấy cũng dễ học sai.
 
 17
-00:01:12,930 --> 00:01:16,179
-Khung tham khảo trong nguồn: 12–25 triệu/tháng.
+00:01:16,378 --> 00:01:21,108
+Với người mới vào nghề, khung lương trong ví dụ là 12–25 triệu đồng mỗi tháng.
 
 18
-00:01:17,180 --> 00:01:19,784
-Cần nền tảng học máy và dự án giải thích được.
+00:01:21,108 --> 00:01:25,408
+Chẳng hạn, bạn được giao làm một trợ lý trả lời khách hàng theo chính sách của công ty.
 
 19
-00:01:21,430 --> 00:01:24,378
-Chatbot phải đúng chính sách, không chỉ nói trôi chảy.
+00:01:25,408 --> 00:01:29,918
+Nhưng nếu nó tự bịa ra ưu đãi không tồn tại, sản phẩm ấy vẫn chưa thể đưa vào sử dụng.
 
 20
-00:01:25,680 --> 00:01:28,582
-Đo lỗi → sửa dữ liệu → kiểm tra lại.
+00:01:29,918 --> 00:01:34,200
+Vì vậy, công việc thường là viết bộ câu hỏi kiểm tra, tìm lỗi, sửa rồi thử lại.
 
 21
-00:01:30,930 --> 00:01:33,843
-Một hướng: tích hợp mô hình có sẵn vào sản phẩm.
+00:01:35,600 --> 00:01:39,920
+Cũng cần đọc kỹ mô tả công việc, vì cùng một chức danh có thể là hai hướng rất khác.
 
 22
-00:01:35,180 --> 00:01:37,973
-Hướng khác: tự huấn luyện mô hình trên dữ liệu.
+00:01:39,920 --> 00:01:43,592
+Một hướng dùng mô hình có sẵn, kết nối với dữ liệu để tạo thành sản phẩm.
 
 23
-00:01:39,430 --> 00:01:41,445
-Cả hai đều cần kỹ năng chuyên môn.
+00:01:43,592 --> 00:01:47,373
+Hướng còn lại đi sâu vào dữ liệu, huấn luyện và tối ưu chính mô hình đó.
 
 24
-00:01:43,680 --> 00:01:46,037
-Đọc mô tả công việc trước khi so lương.
+00:01:47,373 --> 00:01:51,237
+Cả hai đều cần chuyên môn, nên hãy so công việc cụ thể trước khi so mức lương.
 
 25
-00:01:48,930 --> 00:01:52,062
-Nguồn nêu 30–60 triệu cho nhóm 2–4 năm.
+00:01:52,637 --> 00:01:57,755
+Ở nhóm có vài năm kinh nghiệm, ví dụ mức lương được nhắc đến là 30–60 triệu mỗi tháng.
 
 26
-00:01:53,180 --> 00:01:55,668
-Khác biệt: đưa giải pháp vào sử dụng thật.
+00:01:57,755 --> 00:02:01,976
+Điểm khác biệt là bạn đã biết đưa giải pháp ra khỏi máy tính cá nhân để triển khai.
 
 27
-00:01:57,430 --> 00:02:00,077
-Cần hiểu dữ liệu, chi phí và lỗi vận hành.
+00:02:01,976 --> 00:02:07,054
+Sản phẩm lúc này phải phục vụ người dùng thật, với những câu hỏi và tình huống không có sẵn trong đồ án.
 
 28
-00:02:01,680 --> 00:02:03,849
-Kinh nghiệm phải thể hiện qua việc đã làm.
+00:02:07,054 --> 00:02:11,724
+Bạn cần hiểu dữ liệu, chi phí và vận hành; số năm đi làm phải đi cùng việc thực sự đã làm.
 
 29
-00:02:06,930 --> 00:02:09,507
-Thiếu người có kinh nghiệm, vẫn đông hồ sơ mới.
+00:02:13,124 --> 00:02:17,244
+Nhìn như vậy sẽ thấy, nhiều hồ sơ mới không đồng nghĩa doanh nghiệp đã có đủ người phù hợp.
 
 30
-00:02:11,180 --> 00:02:13,566
-Doanh nghiệp cần người tự xử lý được vấn đề.
+00:02:17,244 --> 00:02:21,335
+Có vị trí cần người tự xử lý vấn đề, trong khi người mới vẫn cần được hướng dẫn.
 
 31
-00:02:15,430 --> 00:02:18,076
-Tiếng Anh và phối hợp khách hàng cũng quan trọng.
+00:02:21,335 --> 00:02:25,246
+Kinh nghiệm thực tế, khả năng giao tiếp và vận hành tạo thành một bộ lọc khá mạnh.
 
 32
-00:02:19,680 --> 00:02:21,935
-Lương cao không có nghĩa cửa vào luôn dễ.
+00:02:25,246 --> 00:02:30,190
+Bởi vậy, một nơi có thể vừa thiếu người có kinh nghiệm, vừa cạnh tranh cao ở cửa tuyển người mới.
 
 33
-00:02:24,930 --> 00:02:28,182
-Khung cấp cao trong nguồn: 55–80 triệu/tháng.
+00:02:31,590 --> 00:02:36,240
+Khi lên cấp cao, khung tham khảo trong ví dụ là 55–80 triệu đồng mỗi tháng.
 
 34
-00:02:29,180 --> 00:02:31,847
-Phạm vi mở rộng sang thiết kế cả hệ thống.
+00:02:36,240 --> 00:02:40,580
+Bạn không còn chỉ làm một tính năng, mà phải nhìn cách các phần của hệ thống nối với nhau.
 
 35
-00:02:33,430 --> 00:02:36,263
-Giám sát chất lượng, chi phí và thời điểm sửa.
+00:02:40,580 --> 00:02:44,760
+Chất lượng giảm, chi phí tăng hay một lỗi bất ngờ đều có thể ảnh hưởng tới người dùng.
 
 36
-00:02:37,680 --> 00:02:39,912
-Thu nhập cao đi cùng trách nhiệm lớn hơn.
+00:02:44,760 --> 00:02:49,876
+Thu nhập cao hơn vì phạm vi trách nhiệm lớn hơn, từ thiết kế cho tới theo dõi và khắc phục sự cố.
 
 37
-00:02:42,930 --> 00:02:45,231
-Bạn muốn dẫn đội ngũ hay đào sâu kỹ thuật?
+00:02:51,276 --> 00:02:55,706
+Đi tiếp, bạn thường đứng trước lựa chọn: dẫn dắt đội ngũ hay đào sâu vào một mảng chuyên môn.
 
 38
-00:02:47,180 --> 00:02:50,182
-Quản lý tập trung tuyển dụng, phân công và ưu tiên.
+00:02:55,706 --> 00:03:00,106
+Ở hướng quản lý, thời gian dành nhiều hơn cho tuyển dụng, chia việc và giải quyết các ưu tiên.
 
 39
-00:02:51,430 --> 00:02:54,097
-Chuyên gia giải bài toán khó, xây tiêu chuẩn.
+00:03:00,106 --> 00:03:04,686
+Ở hướng chuyên gia, bạn tập trung vào bài toán khó và xây tiêu chuẩn kỹ thuật cho cả nhóm.
 
 40
-00:02:55,680 --> 00:02:57,874
-Chọn theo công việc mình muốn làm lâu dài.
+00:03:04,686 --> 00:03:09,060
+Đây là hai hướng phát triển, không phải hai thứ hạng; hãy chọn theo công việc muốn làm lâu dài.
 
 41
-00:03:00,930 --> 00:03:04,188
-Nguồn nhắc quản lý AI: 70–120 triệu trở lên.
+00:03:10,460 --> 00:03:15,867
+Với quản lý mảng này, ví dụ trong bài nhắc mức 70–120 triệu đồng mỗi tháng trở lên.
 
 42
-00:03:05,180 --> 00:03:07,311
-Không phải mọi chức danh đều có mức này.
+00:03:15,867 --> 00:03:19,908
+Nhưng một trưởng nhóm nhỏ và người quản lý cả mảng không tự động có cùng mức thu nhập.
 
 43
-00:03:09,430 --> 00:03:12,251
-Quy mô đội và phạm vi quyết định rất quan trọng.
+00:03:19,908 --> 00:03:24,148
+Quy mô đội ngũ, quyền quyết định và việc phải đứng ra xử lý sự cố đều tạo khác biệt.
 
 44
-00:03:13,680 --> 00:03:16,300
-So trách nhiệm, đừng chỉ so tên chức danh.
+00:03:24,148 --> 00:03:28,234
+Vì thế, khi nhận lời mời làm việc, hãy hỏi rõ mình chịu trách nhiệm đến đâu.
 
 45
-00:03:18,930 --> 00:03:22,189
-390–650 triệu là trường hợp đặc biệt trong nguồn.
+00:03:29,634 --> 00:03:33,605
+Còn ở cấp giám đốc, cần đặc biệt thận trọng khi nhìn vào những con số rất lớn.
 
 46
-00:03:23,180 --> 00:03:25,144
-Chỉ nhắc tới tại doanh nghiệp rất lớn.
+00:03:33,605 --> 00:03:37,716
+Vai trò này quyết định cả chiến lược, ngân sách và cách tổ chức sử dụng công nghệ.
 
 47
-00:03:27,430 --> 00:03:30,201
-Lãnh đạo quyết định chiến lược, ngân sách và tổ chức.
+00:03:37,716 --> 00:03:43,523
+Mức 390–650 triệu đồng mỗi tháng được nhắc tới là trường hợp đặc biệt tại doanh nghiệp rất lớn.
 
 48
-00:03:31,680 --> 00:03:34,206
-Không dùng ngoại lệ làm kỳ vọng cho người mới.
+00:03:43,523 --> 00:03:47,885
+Đó không phải mức phổ biến, càng không nên xem là thu nhập mặc định của người bắt đầu học nghề.
 
 49
-00:03:36,930 --> 00:03:39,365
-Cần phân biệt lương trước thuế và sau thuế.
+00:03:49,285 --> 00:03:53,156
+Trước khi so hai lời mời làm việc, hãy xem con số đó được tính theo cách nào.
 
 50
-00:03:41,180 --> 00:03:43,914
-Có bao gồm thưởng, cổ phiếu và bảo hiểm không?
+00:03:53,156 --> 00:03:57,836
+Lương trước thuế khác lương sau thuế, nên cùng một con số chưa chắc số tiền nhận về đã giống nhau.
 
 51
-00:03:45,430 --> 00:03:48,439
-Địa điểm, loại công ty, năm khảo sát đều ảnh hưởng.
+00:03:57,836 --> 00:04:01,318
+Cũng cần biết có gồm thưởng, cổ phiếu hoặc những quyền lợi khác hay không.
 
 52
-00:03:49,680 --> 00:03:51,694
-Số liệu nguồn chưa được kiểm chứng độc lập.
+00:04:01,318 --> 00:04:06,015
+Địa điểm, loại công ty và thời điểm khảo sát đều ảnh hưởng; một khoảng lương chưa nói hết câu chuyện.
 
 53
-00:03:54,930 --> 00:03:57,317
-Làm một bài toán nhỏ để người khác thử được.
+00:04:07,415 --> 00:04:11,965
+Nếu đang học, bước thiết thực nhất là chọn một bài toán nhỏ rồi làm cho người khác thử được.
 
 54
-00:03:59,180 --> 00:04:02,072
-Ghi rõ dữ liệu, cách đánh giá và lỗi còn lại.
+00:04:11,965 --> 00:04:15,497
+Ghi rõ dữ liệu lấy ở đâu và vì sao bạn chọn cách giải quyết đó.
 
 55
-00:04:03,430 --> 00:04:06,137
-Hỏi nơi thực tập về người hướng dẫn, sản phẩm.
+00:04:15,497 --> 00:04:19,927
+Đo kết quả bằng một bộ kiểm tra, đồng thời nói thật về những lỗi hệ thống vẫn còn mắc.
 
 56
-00:04:07,680 --> 00:04:10,530
-Một dự án rõ ràng hơn danh sách tên công cụ.
+00:04:19,927 --> 00:04:24,703
+Khi đi thực tập, hãy hỏi mình sẽ đóng góp sản phẩm gì, thay vì chỉ hỏi được dùng công cụ nào.
 
 57
-00:04:12,930 --> 00:04:15,795
-Cơ hội có thật, nhưng lương cao cần tích luỹ.
+00:04:26,103 --> 00:04:30,493
+Cơ hội trong nghề có thật, nhưng mức lương cao cần thời gian tích luỹ và năng lực chứng minh được.
 
 58
-00:04:17,180 --> 00:04:20,029
-Học nền tảng, làm dự án và chịu trách nhiệm.
+00:04:30,493 --> 00:04:34,673
+Một dự án hoàn chỉnh giúp bạn hiểu rõ hơn mình làm được gì và còn thiếu điều gì.
 
 59
-00:04:21,430 --> 00:04:24,053
-Chọn kỹ năng cần học trước chức danh muốn có.
+00:04:34,673 --> 00:04:39,472
+Khi sản phẩm đã có người dùng, bạn học thêm cách giữ nó hoạt động ổn định và đáng tin cậy.
 
 60
-00:04:25,680 --> 00:04:27,927
-Dự án thật tiếp theo của bạn là gì?
+00:04:39,472 --> 00:04:43,436
+Thu nhập đi cùng giá trị tạo ra; vậy dự án thật tiếp theo của bạn sẽ là gì?

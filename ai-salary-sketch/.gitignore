@@ -9,3 +9,10 @@ assets/voice/
 assets/*-sample.wav
 assets/narration-*.wav
 assets/*.wav
+neural-tools/
+neural-runtime/
+neural-models/
+alignment-tools/
+assets/neural/
+giong-neural-*.wav
+build-before-neural.py

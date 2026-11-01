@@ -1,0 +1,61 @@
+# Lời dẫn tiếng Việt đã viết lại
+
+## Cảnh 1
+
+Bạn vừa tốt nghiệp ngành trí tuệ nhân tạo, nhưng tìm công việc đầu tiên vẫn không dễ. Trong khi đó, có doanh nghiệp chào mức lương 45–50 triệu đồng mỗi tháng mà vẫn khó tuyển người. Đọc kỹ yêu cầu mới thấy, họ cần người từng triển khai sản phẩm, chứ không chỉ hoàn thành đồ án. Vậy doanh nghiệp đang thiếu ai, và người mới cần làm gì để bước qua khoảng cách này?
+
+## Cảnh 2
+
+Hành trình thường bắt đầu từ sinh viên và thực tập sinh, nơi bạn xây những kỹ năng đầu tiên. Khi mới đi làm, điều quan trọng là biết biến kiến thức thành một tính năng có ích. Càng có kinh nghiệm, bạn càng phải chịu trách nhiệm về chất lượng và cách hệ thống vận hành. Sau đó mới tới chuyên gia, quản lý hoặc lãnh đạo; không có lịch thăng tiến giống nhau cho tất cả.
+
+## Cảnh 3
+
+Ở giai đoạn đi học, hãy nắm vững lập trình trước khi chạy theo những công cụ mới nhất. Toán và xác suất giúp bạn hiểu mô hình học như thế nào, thay vì chỉ biết bấm chạy. Bạn cũng cần biết dữ liệu đến từ đâu và vì sao dữ liệu sai làm kết quả sai. Cuối cùng, hãy tập đánh giá kết quả; một mô hình nói trôi chảy chưa chắc đã trả lời đúng.
+
+## Cảnh 4
+
+Thực tập là lúc gặp dữ liệu thật, với mức phụ cấp rất khác nhau, có nơi từ 0 đến 12 triệu. Bạn có thể bắt đầu bằng việc thu thập và làm sạch hàng nghìn tấm ảnh. Sau đó là gán nhãn, để máy biết đâu là đối tượng cần nhận diện và đâu là lỗi. Công việc này ít hào nhoáng, nhưng dữ liệu không đúng thì mô hình tốt đến mấy cũng dễ học sai.
+
+## Cảnh 5
+
+Với người mới vào nghề, khung lương trong ví dụ là 12–25 triệu đồng mỗi tháng. Chẳng hạn, bạn được giao làm một trợ lý trả lời khách hàng theo chính sách của công ty. Nhưng nếu nó tự bịa ra ưu đãi không tồn tại, sản phẩm ấy vẫn chưa thể đưa vào sử dụng. Vì vậy, công việc thường là viết bộ câu hỏi kiểm tra, tìm lỗi, sửa rồi thử lại.
+
+## Cảnh 6
+
+Cũng cần đọc kỹ mô tả công việc, vì cùng một chức danh có thể là hai hướng rất khác. Một hướng dùng mô hình có sẵn, kết nối với dữ liệu để tạo thành sản phẩm. Hướng còn lại đi sâu vào dữ liệu, huấn luyện và tối ưu chính mô hình đó. Cả hai đều cần chuyên môn, nên hãy so công việc cụ thể trước khi so mức lương.
+
+## Cảnh 7
+
+Ở nhóm có vài năm kinh nghiệm, ví dụ mức lương được nhắc đến là 30–60 triệu mỗi tháng. Điểm khác biệt là bạn đã biết đưa giải pháp ra khỏi máy tính cá nhân để triển khai. Sản phẩm lúc này phải phục vụ người dùng thật, với những câu hỏi và tình huống không có sẵn trong đồ án. Bạn cần hiểu dữ liệu, chi phí và vận hành; số năm đi làm phải đi cùng việc thực sự đã làm.
+
+## Cảnh 8
+
+Nhìn như vậy sẽ thấy, nhiều hồ sơ mới không đồng nghĩa doanh nghiệp đã có đủ người phù hợp. Có vị trí cần người tự xử lý vấn đề, trong khi người mới vẫn cần được hướng dẫn. Kinh nghiệm thực tế, khả năng giao tiếp và vận hành tạo thành một bộ lọc khá mạnh. Bởi vậy, một nơi có thể vừa thiếu người có kinh nghiệm, vừa cạnh tranh cao ở cửa tuyển người mới.
+
+## Cảnh 9
+
+Khi lên cấp cao, khung tham khảo trong ví dụ là 55–80 triệu đồng mỗi tháng. Bạn không còn chỉ làm một tính năng, mà phải nhìn cách các phần của hệ thống nối với nhau. Chất lượng giảm, chi phí tăng hay một lỗi bất ngờ đều có thể ảnh hưởng tới người dùng. Thu nhập cao hơn vì phạm vi trách nhiệm lớn hơn, từ thiết kế cho tới theo dõi và khắc phục sự cố.
+
+## Cảnh 10
+
+Đi tiếp, bạn thường đứng trước lựa chọn: dẫn dắt đội ngũ hay đào sâu vào một mảng chuyên môn. Ở hướng quản lý, thời gian dành nhiều hơn cho tuyển dụng, chia việc và giải quyết các ưu tiên. Ở hướng chuyên gia, bạn tập trung vào bài toán khó và xây tiêu chuẩn kỹ thuật cho cả nhóm. Đây là hai hướng phát triển, không phải hai thứ hạng; hãy chọn theo công việc muốn làm lâu dài.
+
+## Cảnh 11
+
+Với quản lý mảng này, ví dụ trong bài nhắc mức 70–120 triệu đồng mỗi tháng trở lên. Nhưng một trưởng nhóm nhỏ và người quản lý cả mảng không tự động có cùng mức thu nhập. Quy mô đội ngũ, quyền quyết định và việc phải đứng ra xử lý sự cố đều tạo khác biệt. Vì thế, khi nhận lời mời làm việc, hãy hỏi rõ mình chịu trách nhiệm đến đâu.
+
+## Cảnh 12
+
+Còn ở cấp giám đốc, cần đặc biệt thận trọng khi nhìn vào những con số rất lớn. Vai trò này quyết định cả chiến lược, ngân sách và cách tổ chức sử dụng công nghệ. Mức 390–650 triệu đồng mỗi tháng được nhắc tới là trường hợp đặc biệt tại doanh nghiệp rất lớn. Đó không phải mức phổ biến, càng không nên xem là thu nhập mặc định của người bắt đầu học nghề.
+
+## Cảnh 13
+
+Trước khi so hai lời mời làm việc, hãy xem con số đó được tính theo cách nào. Lương trước thuế khác lương sau thuế, nên cùng một con số chưa chắc số tiền nhận về đã giống nhau. Cũng cần biết có gồm thưởng, cổ phiếu hoặc những quyền lợi khác hay không. Địa điểm, loại công ty và thời điểm khảo sát đều ảnh hưởng; một khoảng lương chưa nói hết câu chuyện.
+
+## Cảnh 14
+
+Nếu đang học, bước thiết thực nhất là chọn một bài toán nhỏ rồi làm cho người khác thử được. Ghi rõ dữ liệu lấy ở đâu và vì sao bạn chọn cách giải quyết đó. Đo kết quả bằng một bộ kiểm tra, đồng thời nói thật về những lỗi hệ thống vẫn còn mắc. Khi đi thực tập, hãy hỏi mình sẽ đóng góp sản phẩm gì, thay vì chỉ hỏi được dùng công cụ nào.
+
+## Cảnh 15
+
+Cơ hội trong nghề có thật, nhưng mức lương cao cần thời gian tích luỹ và năng lực chứng minh được. Một dự án hoàn chỉnh giúp bạn hiểu rõ hơn mình làm được gì và còn thiếu điều gì. Khi sản phẩm đã có người dùng, bạn học thêm cách giữ nó hoạt động ổn định và đáng tin cậy. Thu nhập đi cùng giá trị tạo ra; vậy dự án thật tiếp theo của bạn sẽ là gì?

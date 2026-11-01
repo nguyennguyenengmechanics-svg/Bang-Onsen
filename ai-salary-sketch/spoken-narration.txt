@@ -1,119 +1,29 @@
-Tin tuyển dụng có mức bốn mươi lăm đến năm mươi triệu mỗi tháng.
+Bạn vừa tốt nghiệp ngành trí tuệ nhân tạo, nhưng tìm công việc đầu tiên vẫn không dễ. Trong khi đó, có doanh nghiệp chào mức lương bốn mươi lăm đến năm mươi triệu đồng mỗi tháng mà vẫn khó tuyển người. Đọc kỹ yêu cầu mới thấy, họ cần người từng triển khai sản phẩm, chứ không chỉ hoàn thành đồ án. Vậy doanh nghiệp đang thiếu ai, và người mới cần làm gì để bước qua khoảng cách này?
 
-Một số nơi thực tập lại chưa có phụ cấp.
+Hành trình thường bắt đầu từ sinh viên và thực tập sinh, nơi bạn xây những kỹ năng đầu tiên. Khi mới đi làm, điều quan trọng là biết biến kiến thức thành một tính năng có ích. Càng có kinh nghiệm, bạn càng phải chịu trách nhiệm về chất lượng và cách hệ thống vận hành. Sau đó mới tới chuyên gia, quản lý hoặc lãnh đạo; không có lịch thăng tiến giống nhau cho tất cả.
 
-Hai trường hợp này không nhất thiết mâu thuẫn.
+Ở giai đoạn đi học, hãy nắm vững lập trình trước khi chạy theo những công cụ mới nhất. Toán và xác suất giúp bạn hiểu mô hình học như thế nào, thay vì chỉ biết bấm chạy. Bạn cũng cần biết dữ liệu đến từ đâu và vì sao dữ liệu sai làm kết quả sai. Cuối cùng, hãy tập đánh giá kết quả; một mô hình nói trôi chảy chưa chắc đã trả lời đúng.
 
-Khác biệt nằm ở kinh nghiệm và trách nhiệm.
+Thực tập là lúc gặp dữ liệu thật, với mức phụ cấp rất khác nhau, có nơi từ không đến mười hai triệu. Bạn có thể bắt đầu bằng việc thu thập và làm sạch hàng nghìn tấm ảnh. Sau đó là gán nhãn, để máy biết đâu là đối tượng cần nhận diện và đâu là lỗi. Công việc này ít hào nhoáng, nhưng dữ liệu không đúng thì mô hình tốt đến mấy cũng dễ học sai.
 
-Sinh viên , rồi thực tập , rồi người mới vào nghề.
+Với người mới vào nghề, khung lương trong ví dụ là mười hai đến hai mươi lăm triệu đồng mỗi tháng. Chẳng hạn, bạn được giao làm một trợ lý trả lời khách hàng theo chính sách của công ty. Nhưng nếu nó tự bịa ra ưu đãi không tồn tại, sản phẩm ấy vẫn chưa thể đưa vào sử dụng. Vì vậy, công việc thường là viết bộ câu hỏi kiểm tra, tìm lỗi, sửa rồi thử lại.
 
-Tiếp theo: có kinh nghiệm , rồi cấp cao.
+Cũng cần đọc kỹ mô tả công việc, vì cùng một chức danh có thể là hai hướng rất khác. Một hướng dùng mô hình có sẵn, kết nối với dữ liệu để tạo thành sản phẩm. Hướng còn lại đi sâu vào dữ liệu, huấn luyện và tối ưu chính mô hình đó. Cả hai đều cần chuyên môn, nên hãy so công việc cụ thể trước khi so mức lương.
 
-Rồi chọn quản lý hoặc đào sâu chuyên môn.
+Ở nhóm có vài năm kinh nghiệm, ví dụ mức lương được nhắc đến là ba mươi đến sáu mươi triệu mỗi tháng. Điểm khác biệt là bạn đã biết đưa giải pháp ra khỏi máy tính cá nhân để triển khai. Sản phẩm lúc này phải phục vụ người dùng thật, với những câu hỏi và tình huống không có sẵn trong đồ án. Bạn cần hiểu dữ liệu, chi phí và vận hành; số năm đi làm phải đi cùng việc thực sự đã làm.
 
-Đây không phải lịch thăng tiến cố định.
+Nhìn như vậy sẽ thấy, nhiều hồ sơ mới không đồng nghĩa doanh nghiệp đã có đủ người phù hợp. Có vị trí cần người tự xử lý vấn đề, trong khi người mới vẫn cần được hướng dẫn. Kinh nghiệm thực tế, khả năng giao tiếp và vận hành tạo thành một bộ lọc khá mạnh. Bởi vậy, một nơi có thể vừa thiếu người có kinh nghiệm, vừa cạnh tranh cao ở cửa tuyển người mới.
 
-Ưu tiên toán, lập trình và cách đánh giá.
+Khi lên cấp cao, khung tham khảo trong ví dụ là năm mươi lăm đến tám mươi triệu đồng mỗi tháng. Bạn không còn chỉ làm một tính năng, mà phải nhìn cách các phần của hệ thống nối với nhau. Chất lượng giảm, chi phí tăng hay một lỗi bất ngờ đều có thể ảnh hưởng tới người dùng. Thu nhập cao hơn vì phạm vi trách nhiệm lớn hơn, từ thiết kế cho tới theo dõi và khắc phục sự cố.
 
-pai thờn, đại số tuyến tính và xác suất.
+Đi tiếp, bạn thường đứng trước lựa chọn: dẫn dắt đội ngũ hay đào sâu vào một mảng chuyên môn. Ở hướng quản lý, thời gian dành nhiều hơn cho tuyển dụng, chia việc và giải quyết các ưu tiên. Ở hướng chuyên gia, bạn tập trung vào bài toán khó và xây tiêu chuẩn kỹ thuật cho cả nhóm. Đây là hai hướng phát triển, không phải hai thứ hạng; hãy chọn theo công việc muốn làm lâu dài.
 
-Hiểu mô hình quan trọng hơn thuộc tên công cụ.
+Với quản lý mảng này, ví dụ trong bài nhắc mức bảy mươi đến một trăm hai mươi triệu đồng mỗi tháng trở lên. Nhưng một trưởng nhóm nhỏ và người quản lý cả mảng không tự động có cùng mức thu nhập. Quy mô đội ngũ, quyền quyết định và việc phải đứng ra xử lý sự cố đều tạo khác biệt. Vì thế, khi nhận lời mời làm việc, hãy hỏi rõ mình chịu trách nhiệm đến đâu.
 
-Học công nghệ thông tin cũng có thể rẽ sang ây ai.
+Còn ở cấp giám đốc, cần đặc biệt thận trọng khi nhìn vào những con số rất lớn. Vai trò này quyết định cả chiến lược, ngân sách và cách tổ chức sử dụng công nghệ. Mức ba trăm chín mươi đến sáu trăm năm mươi triệu đồng mỗi tháng được nhắc tới là trường hợp đặc biệt tại doanh nghiệp rất lớn. Đó không phải mức phổ biến, càng không nên xem là thu nhập mặc định của người bắt đầu học nghề.
 
-không đến mười hai triệu là ví dụ từ nhiều nơi tuyển.
+Trước khi so hai lời mời làm việc, hãy xem con số đó được tính theo cách nào. Lương trước thuế khác lương sau thuế, nên cùng một con số chưa chắc số tiền nhận về đã giống nhau. Cũng cần biết có gồm thưởng, cổ phiếu hoặc những quyền lợi khác hay không. Địa điểm, loại công ty và thời điểm khảo sát đều ảnh hưởng; một khoảng lương chưa nói hết câu chuyện.
 
-Không phải thống kê đại diện mọi thực tập sinh.
+Nếu đang học, bước thiết thực nhất là chọn một bài toán nhỏ rồi làm cho người khác thử được. Ghi rõ dữ liệu lấy ở đâu và vì sao bạn chọn cách giải quyết đó. Đo kết quả bằng một bộ kiểm tra, đồng thời nói thật về những lỗi hệ thống vẫn còn mắc. Khi đi thực tập, hãy hỏi mình sẽ đóng góp sản phẩm gì, thay vì chỉ hỏi được dùng công cụ nào.
 
-Công việc gồm làm sạch dữ liệu và gán nhãn.
-
-Hỏi thêm: mình sẽ đóng góp dự án thật nào?
-
-Khung tham khảo trong nguồn: mười hai đến hai mươi lăm triệu mỗi tháng.
-
-Cần nền tảng học máy và dự án giải thích được.
-
-Chát bót phải đúng chính sách, không chỉ nói trôi chảy.
-
-Đo lỗi , rồi sửa dữ liệu , rồi kiểm tra lại.
-
-Một hướng: tích hợp mô hình có sẵn vào sản phẩm.
-
-Hướng khác: tự huấn luyện mô hình trên dữ liệu.
-
-Cả hai đều cần kỹ năng chuyên môn.
-
-Đọc mô tả công việc trước khi so lương.
-
-Nguồn nêu ba mươi đến sáu mươi triệu cho nhóm hai đến bốn năm.
-
-Khác biệt: đưa giải pháp vào sử dụng thật.
-
-Cần hiểu dữ liệu, chi phí và lỗi vận hành.
-
-Kinh nghiệm phải thể hiện qua việc đã làm.
-
-Thiếu người có kinh nghiệm, vẫn đông hồ sơ mới.
-
-Doanh nghiệp cần người tự xử lý được vấn đề.
-
-Tiếng Anh và phối hợp khách hàng cũng quan trọng.
-
-Lương cao không có nghĩa cửa vào luôn dễ.
-
-Khung cấp cao trong nguồn: năm mươi lăm đến tám mươi triệu mỗi tháng.
-
-Phạm vi mở rộng sang thiết kế cả hệ thống.
-
-Giám sát chất lượng, chi phí và thời điểm sửa.
-
-Thu nhập cao đi cùng trách nhiệm lớn hơn.
-
-Bạn muốn dẫn đội ngũ hay đào sâu kỹ thuật?
-
-Quản lý tập trung tuyển dụng, phân công và ưu tiên.
-
-Chuyên gia giải bài toán khó, xây tiêu chuẩn.
-
-Chọn theo công việc mình muốn làm lâu dài.
-
-Nguồn nhắc quản lý ây ai: 7không đến mười hai0 triệu trở lên.
-
-Không phải mọi chức danh đều có mức này.
-
-Quy mô đội và phạm vi quyết định rất quan trọng.
-
-So trách nhiệm, đừng chỉ so tên chức danh.
-
-ba trăm chín mươi đến sáu trăm năm mươi triệu là trường hợp đặc biệt trong nguồn.
-
-Chỉ nhắc tới tại doanh nghiệp rất lớn.
-
-Lãnh đạo quyết định chiến lược, ngân sách và tổ chức.
-
-Không dùng ngoại lệ làm kỳ vọng cho người mới.
-
-Cần phân biệt lương trước thuế và sau thuế.
-
-Có bao gồm thưởng, cổ phiếu và bảo hiểm không?
-
-Địa điểm, loại công ty, năm khảo sát đều ảnh hưởng.
-
-Số liệu nguồn chưa được kiểm chứng độc lập.
-
-Làm một bài toán nhỏ để người khác thử được.
-
-Ghi rõ dữ liệu, cách đánh giá và lỗi còn lại.
-
-Hỏi nơi thực tập về người hướng dẫn, sản phẩm.
-
-Một dự án rõ ràng hơn danh sách tên công cụ.
-
-Cơ hội có thật, nhưng lương cao cần tích luỹ.
-
-Học nền tảng, làm dự án và chịu trách nhiệm.
-
-Chọn kỹ năng cần học trước chức danh muốn có.
-
-Dự án thật tiếp theo của bạn là gì?
+Cơ hội trong nghề có thật, nhưng mức lương cao cần thời gian tích luỹ và năng lực chứng minh được. Một dự án hoàn chỉnh giúp bạn hiểu rõ hơn mình làm được gì và còn thiếu điều gì. Khi sản phẩm đã có người dùng, bạn học thêm cách giữ nó hoạt động ổn định và đáng tin cậy. Thu nhập đi cùng giá trị tạo ra; vậy dự án thật tiếp theo của bạn sẽ là gì?

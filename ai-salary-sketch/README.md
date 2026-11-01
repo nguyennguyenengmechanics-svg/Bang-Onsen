@@ -1,43 +1,48 @@
-# Lương kỹ sư AI — hoạt hình có lồng tiếng Việt
+# Lương kỹ sư AI — giọng Việt neural đọc liền đoạn
 
-4 phút 34 giây, 1280 × 720, 24 fps. Nhân vật kỹ sư vẽ mới, sơ đồ và đồ vật xuất hiện theo từng ý, tham khảo phong cách video mẫu người dùng gửi.
+Video khoảng 4 phút 47 giây, 1280 × 720, 24 fps. Dùng giọng VAIS1000/Piper VITS neural đúng đoạn mẫu người dùng đã nghe và đồng ý.
 
-## Bản cập nhật
+## Những gì đã sửa
 
-- Đã lồng tiếng Việt bằng eSpeak NG chạy cục bộ: giọng máy cơ bản, không phải giọng neural và không mô phỏng người dẫn của mẫu.
-- 60 cụm giọng đọc, ghép theo thời gian chữ xuất hiện; số và thuật ngữ được chuẩn hoá để phát âm rõ hơn.
-- Đã bỏ toàn bộ hai loại chú thích nguồn nhỏ ở cuối khung hình theo yêu cầu người dùng.
-- Thông tin nguồn và giới hạn xác minh vẫn được lưu trong tài liệu dự án.
+- Thay giọng tổng hợp cơ bản bằng mô hình giọng Việt neural, giữ đúng giọng và tốc độ của mẫu được duyệt.
+- Viết lại lời dẫn cho các câu nối ý tự nhiên. Số tiền được chuyển thành chữ đầy đủ trước khi tổng hợp tiếng.
+- Tổng hợp 15 đoạn liên tục; bỏ cách xếp câu vào các ô thời gian cố định và khoảng lặng dài giữa từng câu.
+- Căn 60 cụm phụ đề bằng đặc trưng âm thanh MFCC/DTW, rồi cho minh hoạ xuất hiện theo từng ý. Không có hai cụm phụ đề đè nhau, không vắt câu qua chỗ cắt.
+- Giữ việc xoá các dòng chú thích nguồn ở cuối khung hình theo yêu cầu trước đó.
 
-## Nội dung dự án
+## Tệp chính
 
-- `renders/Luong-ky-su-AI-hoat-hinh.mp4`: bản MP4 có tiếng trên GitHub.
-- `assets/narration-final.m4a`: giọng đọc đã cân âm lượng.
-- `spoken-narration.txt`, `voice-plan.json`: lời đọc thực tế và thời điểm đo từ số mẫu WAV.
-- `phu-de-vi.srt`: phụ đề tiếng Việt theo các cụm đọc.
-- `index.html`, `build.py`, `scenes.json`, `captions-short.json`: nguồn đồ hoạ và chữ.
-- `script.md`, `narration.txt`: kịch bản tham khảo đầy đủ; bản đọc thực tế dùng các câu tóm ý trong `spoken-narration.txt`.
-- `REFERENCE.md`, `DESIGN.md`, `source-notes.json`: tham chiếu phong cách, quy tắc hình và xuất xứ các mức lương.
-- `voice-loudness.json`, `verification.json`: bằng chứng kiểm tra âm thanh và bản xuất.
+- `renders/Luong-ky-su-AI-hoat-hinh.mp4`: video cập nhật trên GitHub.
+- `assets/narration-final.m4a`: âm thanh neural đã cân âm lượng.
+- `script.md`, `fluent-script.json`, `spoken-narration.txt`: lời dẫn mới và lời đọc đã chuẩn hoá.
+- `fluent-timing.json`, `voice-plan.json`, `phu-de-vi.srt`: dữ liệu thời gian căn theo âm thanh.
+- `index.html`, `build.py`: nguồn đồ hoạ.
+- `voice-loudness.json`, `final-mp4-loudness.json`, `verification.json`: số đo và kết quả kiểm tra.
 
-## Chỉnh sửa và xuất lại
+## Xuất lại
 
-Node.js 22+, Python 3, FFmpeg và Chrome/Chromium. Dùng checkout hiện có, không cần tạo worktree mới. Media, GSAP và font đều được lưu cục bộ.
+Cần Node.js 22+, Python 3, FFmpeg, Chromium. Dùng checkout hiện có, không cần worktree mới. Giọng đọc và font được lưu trong dự án, nên xuất lại video không cần tải mô hình.
 
 ```bash
 python3 build.py
 HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run check
-HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run render -- --output Luong-ky-su-AI-long-tieng.mp4 --fps 24 --quality high --workers 4
+HYPERFRAMES_BROWSER_PATH=/usr/bin/chromium npm run render -- --output Luong-ky-su-AI-giong-neural.mp4 --fps 24 --quality high --workers 4
 ```
 
-Nếu cần tạo lại giọng đọc, cài bộ đọc một lần rồi chạy các script; không cần kết nối dịch vụ đọc tiếng Việt trực tuyến:
+Nếu cần sửa lời dẫn và tạo lại giọng trên Linux:
 
 ```bash
-python3 -m pip install --target voice-tools espeakng-loader==0.2.4
-python3 produce_voice.py
+python3 -m pip install --target neural-runtime -r requirements-neural.txt
+python3 setup_neural_model.py
+python3 generate_fluent_voice.py
 python3 master_voice.py
+python3 build.py
 ```
 
-`master_voice.py` đo và cân lại trên AAC thực tế. Khi thay đổi câu chữ phải kiểm tra lại thời lượng cụm, đồng bộ hình và đo lại MP4 sau mã hoá. Bộ công cụ và WAV trung gian không được đóng gói trong repository.
+Chỉnh lời ở `fluent-script.json`. Không sửa riêng thời gian phụ đề rồi giữ nguyên âm thanh cũ. Sau mỗi bản mới cần đo lại LUFS/true peak trên MP4 cuối và kiểm tra đồng bộ. Cảnh báo `line_unread` của bộ kiểm tra dùng cách đếm từ có thể đánh dấu các câu phụ đề tiếng Việt; thời gian thực tế được căn theo lời đọc, mỗi cụm hơn 3 giây.
 
-Các mức lương chỉ là tham khảo theo phụ đề người dùng cung cấp, chưa được xác minh độc lập, chưa rõ năm và gross/net. Mức 390–650 triệu/tháng là trường hợp ngoại lệ tại doanh nghiệp rất lớn. Bản mới không đưa phần luật và thuế chưa xác minh vào nội dung.
+## Nguồn bộ giọng
+
+Mô hình [Piper Vietnamese VAIS1000 medium](https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models), chạy bằng sherpa-onnx 1.13.3. Dataset [VAIS-1000 Vietnamese Speech Synthesis Corpus](https://ieee-dataport.org/documents/vais-1000-vietnamese-speech-synthesis-corpus), giấy phép CC BY 4.0 theo model card; xem `VOICE_MODEL_CARD.md`. Các checksum trong script ghim đúng artifact đã dùng để tạo đoạn mẫu người dùng duyệt. Trọng số mô hình và bộ chạy không được đóng gói trong repository.
+
+Nguồn mức lương vẫn được lưu ở `source-notes.json`; các khoảng lương chưa xác minh độc lập và không phải cam kết thu nhập. Mức giám đốc là ví dụ ngoại lệ, không phải mức phổ biến. Video không sao chép giọng hoặc âm thanh người dẫn TikTok mẫu.

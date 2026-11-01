@@ -1,0 +1,579 @@
+{
+  "total_duration": 286.9583333333333,
+  "voice": "VAIS1000 medium / Piper VITS neural, user-approved sample",
+  "generation": "continuous paragraph; no per-phrase stretching or fixed padding",
+  "model_release": "https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models",
+  "model_file_sha256": "df1512ef3265609f147ae23726b8c8867c6d28e60acb9ffca3545e11783b809f",
+  "scenes": [
+    {
+      "index": 0,
+      "start": 0,
+      "duration": 19.639274376417237,
+      "voice_start": 0.85,
+      "voice_end": 19.089274376417237,
+      "phrases": [
+        {
+          "text": "Bạn vừa tốt nghiệp ngành trí tuệ nhân tạo, nhưng tìm công việc đầu tiên vẫn không dễ.",
+          "spoken": "Bạn vừa tốt nghiệp ngành trí tuệ nhân tạo, nhưng tìm công việc đầu tiên vẫn không dễ.",
+          "start": 0.85,
+          "end": 5.010544217687074
+        },
+        {
+          "text": "Trong khi đó, có doanh nghiệp chào mức lương 45–50 triệu đồng mỗi tháng mà vẫn khó tuyển người.",
+          "spoken": "Trong khi đó, có doanh nghiệp chào mức lương bốn mươi lăm đến năm mươi triệu đồng mỗi tháng mà vẫn khó tuyển người.",
+          "start": 5.010544217687074,
+          "end": 10.278571428571428
+        },
+        {
+          "text": "Đọc kỹ yêu cầu mới thấy, họ cần người từng triển khai sản phẩm, chứ không chỉ hoàn thành đồ án.",
+          "spoken": "Đọc kỹ yêu cầu mới thấy, họ cần người từng triển khai sản phẩm, chứ không chỉ hoàn thành đồ án.",
+          "start": 10.278571428571428,
+          "end": 15.057709750566893
+        },
+        {
+          "text": "Vậy doanh nghiệp đang thiếu ai, và người mới cần làm gì để bước qua khoảng cách này?",
+          "spoken": "Vậy doanh nghiệp đang thiếu ai, và người mới cần làm gì để bước qua khoảng cách này?",
+          "start": 15.057709750566893,
+          "end": 19.089274376417237
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.160544217687074,
+        9.428571428571429,
+        14.207709750566893
+      ]
+    },
+    {
+      "index": 1,
+      "start": 19.639274376417237,
+      "duration": 18.7685260770975,
+      "voice_start": 20.48927437641724,
+      "voice_end": 37.85780045351474,
+      "phrases": [
+        {
+          "text": "Hành trình thường bắt đầu từ sinh viên và thực tập sinh, nơi bạn xây những kỹ năng đầu tiên.",
+          "spoken": "Hành trình thường bắt đầu từ sinh viên và thực tập sinh, nơi bạn xây những kỹ năng đầu tiên.",
+          "start": 20.48927437641724,
+          "end": 25.15866213151928
+        },
+        {
+          "text": "Khi mới đi làm, điều quan trọng là biết biến kiến thức thành một tính năng có ích.",
+          "spoken": "Khi mới đi làm, điều quan trọng là biết biến kiến thức thành một tính năng có ích.",
+          "start": 25.15866213151928,
+          "end": 28.970000000000006
+        },
+        {
+          "text": "Càng có kinh nghiệm, bạn càng phải chịu trách nhiệm về chất lượng và cách hệ thống vận hành.",
+          "spoken": "Càng có kinh nghiệm, bạn càng phải chịu trách nhiệm về chất lượng và cách hệ thống vận hành.",
+          "start": 28.970000000000006,
+          "end": 33.28020408163266
+        },
+        {
+          "text": "Sau đó mới tới chuyên gia, quản lý hoặc lãnh đạo; không có lịch thăng tiến giống nhau cho tất cả.",
+          "spoken": "Sau đó mới tới chuyên gia, quản lý hoặc lãnh đạo; không có lịch thăng tiến giống nhau cho tất cả.",
+          "start": 33.28020408163266,
+          "end": 37.85780045351474
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.669387755102041,
+        8.480725623582767,
+        12.790929705215419
+      ]
+    },
+    {
+      "index": 2,
+      "start": 38.40780045351474,
+      "duration": 18.445034013605436,
+      "voice_start": 39.25780045351474,
+      "voice_end": 56.30283446712018,
+      "phrases": [
+        {
+          "text": "Ở giai đoạn đi học, hãy nắm vững lập trình trước khi chạy theo những công cụ mới nhất.",
+          "spoken": "Ở giai đoạn đi học, hãy nắm vững lập trình trước khi chạy theo những công cụ mới nhất.",
+          "start": 39.25780045351474,
+          "end": 43.13897959183674
+        },
+        {
+          "text": "Toán và xác suất giúp bạn hiểu mô hình học như thế nào, thay vì chỉ biết bấm chạy.",
+          "spoken": "Toán và xác suất giúp bạn hiểu mô hình học như thế nào, thay vì chỉ biết bấm chạy.",
+          "start": 43.13897959183674,
+          "end": 47.24963718820862
+        },
+        {
+          "text": "Bạn cũng cần biết dữ liệu đến từ đâu và vì sao dữ liệu sai làm kết quả sai.",
+          "spoken": "Bạn cũng cần biết dữ liệu đến từ đâu và vì sao dữ liệu sai làm kết quả sai.",
+          "start": 47.24963718820862,
+          "end": 51.60972789115647
+        },
+        {
+          "text": "Cuối cùng, hãy tập đánh giá kết quả; một mô hình nói trôi chảy chưa chắc đã trả lời đúng.",
+          "spoken": "Cuối cùng, hãy tập đánh giá kết quả; một mô hình nói trôi chảy chưa chắc đã trả lời đúng.",
+          "start": 51.60972789115647,
+          "end": 56.30283446712018
+        }
+      ],
+      "dtw_sentence_cuts": [
+        3.8811791383219956,
+        7.9918367346938775,
+        12.351927437641724
+      ]
+    },
+    {
+      "index": 3,
+      "start": 56.852834467120175,
+      "duration": 18.67564625850339,
+      "voice_start": 57.70283446712018,
+      "voice_end": 74.97848072562357,
+      "phrases": [
+        {
+          "text": "Thực tập là lúc gặp dữ liệu thật, với mức phụ cấp rất khác nhau, có nơi từ 0 đến 12 triệu.",
+          "spoken": "Thực tập là lúc gặp dữ liệu thật, với mức phụ cấp rất khác nhau, có nơi từ không đến mười hai triệu.",
+          "start": 57.70283446712018,
+          "end": 62.471995464852604
+        },
+        {
+          "text": "Bạn có thể bắt đầu bằng việc thu thập và làm sạch hàng nghìn tấm ảnh.",
+          "spoken": "Bạn có thể bắt đầu bằng việc thu thập và làm sạch hàng nghìn tấm ảnh.",
+          "start": 62.471995464852604,
+          "end": 65.92414965986394
+        },
+        {
+          "text": "Sau đó là gán nhãn, để máy biết đâu là đối tượng cần nhận diện và đâu là lỗi.",
+          "spoken": "Sau đó là gán nhãn, để máy biết đâu là đối tượng cần nhận diện và đâu là lỗi.",
+          "start": 65.92414965986394,
+          "end": 70.29421768707482
+        },
+        {
+          "text": "Công việc này ít hào nhoáng, nhưng dữ liệu không đúng thì mô hình tốt đến mấy cũng dễ học sai.",
+          "spoken": "Công việc này ít hào nhoáng, nhưng dữ liệu không đúng thì mô hình tốt đến mấy cũng dễ học sai.",
+          "start": 70.29421768707482,
+          "end": 74.97848072562357
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.769160997732427,
+        8.221315192743765,
+        12.591383219954649
+      ]
+    },
+    {
+      "index": 4,
+      "start": 75.52848072562357,
+      "duration": 19.22131519274376,
+      "voice_start": 76.37848072562356,
+      "voice_end": 94.19979591836733,
+      "phrases": [
+        {
+          "text": "Với người mới vào nghề, khung lương trong ví dụ là 12–25 triệu đồng mỗi tháng.",
+          "spoken": "Với người mới vào nghề, khung lương trong ví dụ là mười hai đến hai mươi lăm triệu đồng mỗi tháng.",
+          "start": 76.37848072562356,
+          "end": 81.10773242630383
+        },
+        {
+          "text": "Chẳng hạn, bạn được giao làm một trợ lý trả lời khách hàng theo chính sách của công ty.",
+          "spoken": "Chẳng hạn, bạn được giao làm một trợ lý trả lời khách hàng theo chính sách của công ty.",
+          "start": 81.10773242630383,
+          "end": 85.40795918367346
+        },
+        {
+          "text": "Nhưng nếu nó tự bịa ra ưu đãi không tồn tại, sản phẩm ấy vẫn chưa thể đưa vào sử dụng.",
+          "spoken": "Nhưng nếu nó tự bịa ra ưu đãi không tồn tại, sản phẩm ấy vẫn chưa thể đưa vào sử dụng.",
+          "start": 85.40795918367346,
+          "end": 89.91770975056687
+        },
+        {
+          "text": "Vì vậy, công việc thường là viết bộ câu hỏi kiểm tra, tìm lỗi, sửa rồi thử lại.",
+          "spoken": "Vì vậy, công việc thường là viết bộ câu hỏi kiểm tra, tìm lỗi, sửa rồi thử lại.",
+          "start": 89.91770975056687,
+          "end": 94.19979591836733
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.729251700680272,
+        9.029478458049887,
+        13.53922902494331
+      ]
+    },
+    {
+      "index": 5,
+      "start": 94.74979591836733,
+      "duration": 17.037097505668925,
+      "voice_start": 95.59979591836732,
+      "voice_end": 111.23689342403625,
+      "phrases": [
+        {
+          "text": "Cũng cần đọc kỹ mô tả công việc, vì cùng một chức danh có thể là hai hướng rất khác.",
+          "spoken": "Cũng cần đọc kỹ mô tả công việc, vì cùng một chức danh có thể là hai hướng rất khác.",
+          "start": 95.59979591836732,
+          "end": 99.91997732426302
+        },
+        {
+          "text": "Một hướng dùng mô hình có sẵn, kết nối với dữ liệu để tạo thành sản phẩm.",
+          "spoken": "Một hướng dùng mô hình có sẵn, kết nối với dữ liệu để tạo thành sản phẩm.",
+          "start": 99.91997732426302,
+          "end": 103.5916326530612
+        },
+        {
+          "text": "Hướng còn lại đi sâu vào dữ liệu, huấn luyện và tối ưu chính mô hình đó.",
+          "spoken": "Hướng còn lại đi sâu vào dữ liệu, huấn luyện và tối ưu chính mô hình đó.",
+          "start": 103.5916326530612,
+          "end": 107.3730385487528
+        },
+        {
+          "text": "Cả hai đều cần chuyên môn, nên hãy so công việc cụ thể trước khi so mức lương.",
+          "spoken": "Cả hai đều cần chuyên môn, nên hãy so công việc cụ thể trước khi so mức lương.",
+          "start": 107.3730385487528,
+          "end": 111.23689342403625
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.320181405895692,
+        7.9918367346938775,
+        11.773242630385488
+      ]
+    },
+    {
+      "index": 6,
+      "start": 111.78689342403625,
+      "duration": 20.486802721088438,
+      "voice_start": 112.63689342403624,
+      "voice_end": 131.72369614512468,
+      "phrases": [
+        {
+          "text": "Ở nhóm có vài năm kinh nghiệm, ví dụ mức lương được nhắc đến là 30–60 triệu mỗi tháng.",
+          "spoken": "Ở nhóm có vài năm kinh nghiệm, ví dụ mức lương được nhắc đến là ba mươi đến sáu mươi triệu mỗi tháng.",
+          "start": 112.63689342403624,
+          "end": 117.75526077097501
+        },
+        {
+          "text": "Điểm khác biệt là bạn đã biết đưa giải pháp ra khỏi máy tính cá nhân để triển khai.",
+          "spoken": "Điểm khác biệt là bạn đã biết đưa giải pháp ra khỏi máy tính cá nhân để triển khai.",
+          "start": 117.75526077097501,
+          "end": 121.97566893424033
+        },
+        {
+          "text": "Sản phẩm lúc này phải phục vụ người dùng thật, với những câu hỏi và tình huống không có sẵn trong đồ án.",
+          "spoken": "Sản phẩm lúc này phải phục vụ người dùng thật, với những câu hỏi và tình huống không có sẵn trong đồ án.",
+          "start": 121.97566893424033,
+          "end": 127.05412698412695
+        },
+        {
+          "text": "Bạn cần hiểu dữ liệu, chi phí và vận hành; số năm đi làm phải đi cùng việc thực sự đã làm.",
+          "spoken": "Bạn cần hiểu dữ liệu, chi phí và vận hành; số năm đi làm phải đi cùng việc thực sự đã làm.",
+          "start": 127.05412698412695,
+          "end": 131.72369614512468
+        }
+      ],
+      "dtw_sentence_cuts": [
+        5.118367346938776,
+        9.338775510204082,
+        14.417233560090702
+      ]
+    },
+    {
+      "index": 7,
+      "start": 132.2736961451247,
+      "duration": 18.46666666666667,
+      "voice_start": 133.12369614512468,
+      "voice_end": 150.19036281179135,
+      "phrases": [
+        {
+          "text": "Nhìn như vậy sẽ thấy, nhiều hồ sơ mới không đồng nghĩa doanh nghiệp đã có đủ người phù hợp.",
+          "spoken": "Nhìn như vậy sẽ thấy, nhiều hồ sơ mới không đồng nghĩa doanh nghiệp đã có đủ người phù hợp.",
+          "start": 133.12369614512468,
+          "end": 137.2443310657596
+        },
+        {
+          "text": "Có vị trí cần người tự xử lý vấn đề, trong khi người mới vẫn cần được hướng dẫn.",
+          "spoken": "Có vị trí cần người tự xử lý vấn đề, trong khi người mới vẫn cần được hướng dẫn.",
+          "start": 137.2443310657596,
+          "end": 141.33503401360542
+        },
+        {
+          "text": "Kinh nghiệm thực tế, khả năng giao tiếp và vận hành tạo thành một bộ lọc khá mạnh.",
+          "spoken": "Kinh nghiệm thực tế, khả năng giao tiếp và vận hành tạo thành một bộ lọc khá mạnh.",
+          "start": 141.33503401360542,
+          "end": 145.24614512471652
+        },
+        {
+          "text": "Bởi vậy, một nơi có thể vừa thiếu người có kinh nghiệm, vừa cạnh tranh cao ở cửa tuyển người mới.",
+          "spoken": "Bởi vậy, một nơi có thể vừa thiếu người có kinh nghiệm, vừa cạnh tranh cao ở cửa tuyển người mới.",
+          "start": 145.24614512471652,
+          "end": 150.19036281179135
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.12063492063492,
+        8.211337868480726,
+        12.122448979591837
+      ]
+    },
+    {
+      "index": 8,
+      "start": 150.74036281179136,
+      "duration": 19.685714285714283,
+      "voice_start": 151.59036281179135,
+      "voice_end": 169.87607709750563,
+      "phrases": [
+        {
+          "text": "Khi lên cấp cao, khung tham khảo trong ví dụ là 55–80 triệu đồng mỗi tháng.",
+          "spoken": "Khi lên cấp cao, khung tham khảo trong ví dụ là năm mươi lăm đến tám mươi triệu đồng mỗi tháng.",
+          "start": 151.59036281179135,
+          "end": 156.23979591836732
+        },
+        {
+          "text": "Bạn không còn chỉ làm một tính năng, mà phải nhìn cách các phần của hệ thống nối với nhau.",
+          "spoken": "Bạn không còn chỉ làm một tính năng, mà phải nhìn cách các phần của hệ thống nối với nhau.",
+          "start": 156.23979591836732,
+          "end": 160.5799319727891
+        },
+        {
+          "text": "Chất lượng giảm, chi phí tăng hay một lỗi bất ngờ đều có thể ảnh hưởng tới người dùng.",
+          "spoken": "Chất lượng giảm, chi phí tăng hay một lỗi bất ngờ đều có thể ảnh hưởng tới người dùng.",
+          "start": 160.5799319727891,
+          "end": 164.76043083900223
+        },
+        {
+          "text": "Thu nhập cao hơn vì phạm vi trách nhiệm lớn hơn, từ thiết kế cho tới theo dõi và khắc phục sự cố.",
+          "spoken": "Thu nhập cao hơn vì phạm vi trách nhiệm lớn hơn, từ thiết kế cho tới theo dõi và khắc phục sự cố.",
+          "start": 164.76043083900223,
+          "end": 169.87607709750563
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.649433106575963,
+        8.989569160997732,
+        13.170068027210885
+      ]
+    },
+    {
+      "index": 9,
+      "start": 170.42607709750564,
+      "duration": 19.18344671201814,
+      "voice_start": 171.27607709750563,
+      "voice_end": 189.05952380952377,
+      "phrases": [
+        {
+          "text": "Đi tiếp, bạn thường đứng trước lựa chọn: dẫn dắt đội ngũ hay đào sâu vào một mảng chuyên môn.",
+          "spoken": "Đi tiếp, bạn thường đứng trước lựa chọn: dẫn dắt đội ngũ hay đào sâu vào một mảng chuyên môn.",
+          "start": 171.27607709750563,
+          "end": 175.70600907029475
+        },
+        {
+          "text": "Ở hướng quản lý, thời gian dành nhiều hơn cho tuyển dụng, chia việc và giải quyết các ưu tiên.",
+          "spoken": "Ở hướng quản lý, thời gian dành nhiều hơn cho tuyển dụng, chia việc và giải quyết các ưu tiên.",
+          "start": 175.70600907029475,
+          "end": 180.10600907029476
+        },
+        {
+          "text": "Ở hướng chuyên gia, bạn tập trung vào bài toán khó và xây tiêu chuẩn kỹ thuật cho cả nhóm.",
+          "spoken": "Ở hướng chuyên gia, bạn tập trung vào bài toán khó và xây tiêu chuẩn kỹ thuật cho cả nhóm.",
+          "start": 180.10600907029476,
+          "end": 184.68560090702945
+        },
+        {
+          "text": "Đây là hai hướng phát triển, không phải hai thứ hạng; hãy chọn theo công việc muốn làm lâu dài.",
+          "spoken": "Đây là hai hướng phát triển, không phải hai thứ hạng; hãy chọn theo công việc muốn làm lâu dài.",
+          "start": 184.68560090702945,
+          "end": 189.05952380952377
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.429931972789116,
+        8.829931972789115,
+        13.40952380952381
+      ]
+    },
+    {
+      "index": 10,
+      "start": 189.60952380952378,
+      "duration": 19.17487528344671,
+      "voice_start": 190.45952380952377,
+      "voice_end": 208.23439909297048,
+      "phrases": [
+        {
+          "text": "Với quản lý mảng này, ví dụ trong bài nhắc mức 70–120 triệu đồng mỗi tháng trở lên.",
+          "spoken": "Với quản lý mảng này, ví dụ trong bài nhắc mức bảy mươi đến một trăm hai mươi triệu đồng mỗi tháng trở lên.",
+          "start": 190.45952380952377,
+          "end": 195.86723356009065
+        },
+        {
+          "text": "Nhưng một trưởng nhóm nhỏ và người quản lý cả mảng không tự động có cùng mức thu nhập.",
+          "spoken": "Nhưng một trưởng nhóm nhỏ và người quản lý cả mảng không tự động có cùng mức thu nhập.",
+          "start": 195.86723356009065,
+          "end": 199.90804988662128
+        },
+        {
+          "text": "Quy mô đội ngũ, quyền quyết định và việc phải đứng ra xử lý sự cố đều tạo khác biệt.",
+          "spoken": "Quy mô đội ngũ, quyền quyết định và việc phải đứng ra xử lý sự cố đều tạo khác biệt.",
+          "start": 199.90804988662128,
+          "end": 204.14841269841267
+        },
+        {
+          "text": "Vì thế, khi nhận lời mời làm việc, hãy hỏi rõ mình chịu trách nhiệm đến đâu.",
+          "spoken": "Vì thế, khi nhận lời mời làm việc, hãy hỏi rõ mình chịu trách nhiệm đến đâu.",
+          "start": 204.14841269841267,
+          "end": 208.23439909297048
+        }
+      ],
+      "dtw_sentence_cuts": [
+        5.407709750566894,
+        9.448526077097506,
+        13.688888888888888
+      ]
+    },
+    {
+      "index": 11,
+      "start": 208.7843990929705,
+      "duration": 19.650884353741503,
+      "voice_start": 209.63439909297048,
+      "voice_end": 227.88528344671198,
+      "phrases": [
+        {
+          "text": "Còn ở cấp giám đốc, cần đặc biệt thận trọng khi nhìn vào những con số rất lớn.",
+          "spoken": "Còn ở cấp giám đốc, cần đặc biệt thận trọng khi nhìn vào những con số rất lớn.",
+          "start": 209.63439909297048,
+          "end": 213.60537414965984
+        },
+        {
+          "text": "Vai trò này quyết định cả chiến lược, ngân sách và cách tổ chức sử dụng công nghệ.",
+          "spoken": "Vai trò này quyết định cả chiến lược, ngân sách và cách tổ chức sử dụng công nghệ.",
+          "start": 213.60537414965984,
+          "end": 217.71603174603172
+        },
+        {
+          "text": "Mức 390–650 triệu đồng mỗi tháng được nhắc tới là trường hợp đặc biệt tại doanh nghiệp rất lớn.",
+          "spoken": "Mức ba trăm chín mươi đến sáu trăm năm mươi triệu đồng mỗi tháng được nhắc tới là trường hợp đặc biệt tại doanh nghiệp rất lớn.",
+          "start": 217.71603174603172,
+          "end": 223.52283446712013
+        },
+        {
+          "text": "Đó không phải mức phổ biến, càng không nên xem là thu nhập mặc định của người bắt đầu học nghề.",
+          "spoken": "Đó không phải mức phổ biến, càng không nên xem là thu nhập mặc định của người bắt đầu học nghề.",
+          "start": 223.52283446712013,
+          "end": 227.88528344671198
+        }
+      ],
+      "dtw_sentence_cuts": [
+        3.9709750566893423,
+        8.081632653061224,
+        13.88843537414966
+      ]
+    },
+    {
+      "index": 12,
+      "start": 228.435283446712,
+      "duration": 18.129977324263052,
+      "voice_start": 229.285283446712,
+      "voice_end": 246.01526077097503,
+      "phrases": [
+        {
+          "text": "Trước khi so hai lời mời làm việc, hãy xem con số đó được tính theo cách nào.",
+          "spoken": "Trước khi so hai lời mời làm việc, hãy xem con số đó được tính theo cách nào.",
+          "start": 229.285283446712,
+          "end": 233.15648526077095
+        },
+        {
+          "text": "Lương trước thuế khác lương sau thuế, nên cùng một con số chưa chắc số tiền nhận về đã giống nhau.",
+          "spoken": "Lương trước thuế khác lương sau thuế, nên cùng một con số chưa chắc số tiền nhận về đã giống nhau.",
+          "start": 233.15648526077095,
+          "end": 237.83585034013603
+        },
+        {
+          "text": "Cũng cần biết có gồm thưởng, cổ phiếu hoặc những quyền lợi khác hay không.",
+          "spoken": "Cũng cần biết có gồm thưởng, cổ phiếu hoặc những quyền lợi khác hay không.",
+          "start": 237.83585034013603,
+          "end": 241.31793650793648
+        },
+        {
+          "text": "Địa điểm, loại công ty và thời điểm khảo sát đều ảnh hưởng; một khoảng lương chưa nói hết câu chuyện.",
+          "spoken": "Địa điểm, loại công ty và thời điểm khảo sát đều ảnh hưởng; một khoảng lương chưa nói hết câu chuyện.",
+          "start": 241.31793650793648,
+          "end": 246.01526077097503
+        }
+      ],
+      "dtw_sentence_cuts": [
+        3.871201814058957,
+        8.550566893424037,
+        12.03265306122449
+      ]
+    },
+    {
+      "index": 13,
+      "start": 246.56526077097504,
+      "duration": 18.687256235827647,
+      "voice_start": 247.41526077097504,
+      "voice_end": 264.7025170068027,
+      "phrases": [
+        {
+          "text": "Nếu đang học, bước thiết thực nhất là chọn một bài toán nhỏ rồi làm cho người khác thử được.",
+          "spoken": "Nếu đang học, bước thiết thực nhất là chọn một bài toán nhỏ rồi làm cho người khác thử được.",
+          "start": 247.41526077097504,
+          "end": 251.96492063492062
+        },
+        {
+          "text": "Ghi rõ dữ liệu lấy ở đâu và vì sao bạn chọn cách giải quyết đó.",
+          "spoken": "Ghi rõ dữ liệu lấy ở đâu và vì sao bạn chọn cách giải quyết đó.",
+          "start": 251.96492063492062,
+          "end": 255.49689342403627
+        },
+        {
+          "text": "Đo kết quả bằng một bộ kiểm tra, đồng thời nói thật về những lỗi hệ thống vẫn còn mắc.",
+          "spoken": "Đo kết quả bằng một bộ kiểm tra, đồng thời nói thật về những lỗi hệ thống vẫn còn mắc.",
+          "start": 255.49689342403627,
+          "end": 259.9268253968254
+        },
+        {
+          "text": "Khi đi thực tập, hãy hỏi mình sẽ đóng góp sản phẩm gì, thay vì chỉ hỏi được dùng công cụ nào.",
+          "spoken": "Khi đi thực tập, hãy hỏi mình sẽ đóng góp sản phẩm gì, thay vì chỉ hỏi được dùng công cụ nào.",
+          "start": 259.9268253968254,
+          "end": 264.7025170068027
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.549659863945578,
+        8.081632653061224,
+        12.51156462585034
+      ]
+    },
+    {
+      "index": 14,
+      "start": 265.2525170068027,
+      "duration": 18.733696145124725,
+      "voice_start": 266.1025170068027,
+      "voice_end": 283.4362131519274,
+      "phrases": [
+        {
+          "text": "Cơ hội trong nghề có thật, nhưng mức lương cao cần thời gian tích luỹ và năng lực chứng minh được.",
+          "spoken": "Cơ hội trong nghề có thật, nhưng mức lương cao cần thời gian tích luỹ và năng lực chứng minh được.",
+          "start": 266.1025170068027,
+          "end": 270.4925396825397
+        },
+        {
+          "text": "Một dự án hoàn chỉnh giúp bạn hiểu rõ hơn mình làm được gì và còn thiếu điều gì.",
+          "spoken": "Một dự án hoàn chỉnh giúp bạn hiểu rõ hơn mình làm được gì và còn thiếu điều gì.",
+          "start": 270.4925396825397,
+          "end": 274.6730385487528
+        },
+        {
+          "text": "Khi sản phẩm đã có người dùng, bạn học thêm cách giữ nó hoạt động ổn định và đáng tin cậy.",
+          "spoken": "Khi sản phẩm đã có người dùng, bạn học thêm cách giữ nó hoạt động ổn định và đáng tin cậy.",
+          "start": 274.6730385487528,
+          "end": 279.47213151927434
+        },
+        {
+          "text": "Thu nhập đi cùng giá trị tạo ra; vậy dự án thật tiếp theo của bạn sẽ là gì?",
+          "spoken": "Thu nhập đi cùng giá trị tạo ra; vậy dự án thật tiếp theo của bạn sẽ là gì?",
+          "start": 279.47213151927434,
+          "end": 283.4362131519274
+        }
+      ],
+      "dtw_sentence_cuts": [
+        4.390022675736962,
+        8.570521541950113,
+        13.369614512471655
+      ]
+    }
+  ]
+}
