@@ -1,0 +1,59 @@
+1. Lộ trình sự nghiệp kỹ sư AI
+Tuấn muốn làm kỹ sư AI, nhưng chưa biết bắt đầu từ đâu.
+Đừng bắt đầu bằng giấc mơ lương nghìn đô.
+Hãy bắt đầu bằng một thứ mình tự tay làm cho chạy được.
+
+2. Xây móng trước khi xây AI
+Trước hết, học Python, Git và cách xử lý dữ liệu bằng SQL.
+Song song là đại số tuyến tính, xác suất và thống kê.
+Không cần biết hết mới bắt đầu, nhưng phải hiểu điều mình đang dùng.
+
+3. Đừng chỉ nhìn điểm số đẹp
+Tiếp theo, học cách chia dữ liệu, huấn luyện và đánh giá mô hình.
+Một mô hình điểm cao vẫn có thể sai nếu dữ liệu bị rò rỉ.
+Hãy làm bài toán nhỏ trước, hiểu vì sao nó đúng và khi nào nó sai.
+
+4. Cho nhà tuyển dụng thấy sản phẩm
+Tuấn chọn một dự án: chatbot, đọc hóa đơn hoặc gợi ý sản phẩm.
+Đưa mã lên GitHub, viết hướng dẫn chạy và công bố cách đánh giá.
+Một dự án hoàn chỉnh có giá trị hơn nhiều bản sao tutorial.
+
+5. Học cách làm việc trong một đội
+Khi đã có nền tảng và dự án, hãy tìm cơ hội thực tập.
+Ở đây, Tuấn học đọc code, nhận góp ý và sửa lỗi cùng đồng đội.
+Danh hiệu chưa quan trọng bằng việc mình tiến bộ qua từng nhiệm vụ.
+
+6. Tự làm được một phần việc
+Từ fresher lên junior, mục tiêu là tự hoàn thành một phần việc rõ ràng.
+Không chỉ chạy trên máy cá nhân: hãy đưa mô hình thành một API.
+Và biết kiểm tra đầu vào, ghi log, xử lý những lỗi thường gặp.
+
+7. Chịu trách nhiệm từ đầu đến cuối
+Để lên mid-level, Tuấn phải làm chủ cả vòng đời một tính năng AI.
+Chọn giải pháp, triển khai, theo dõi rồi cải thiện khi dữ liệu thay đổi.
+Lúc này, chất lượng phải đi cùng tốc độ phản hồi và chi phí vận hành.
+
+8. Không cần giỏi tất cả cùng lúc
+Đến đây, hãy chọn một hướng để đào sâu theo sở thích và cơ hội.
+Có thể là ngôn ngữ, thị giác máy tính, hoặc hệ thống và vận hành AI.
+Dùng mô hình có sẵn vẫn cần đánh giá và thiết kế nghiêm túc.
+
+9. Từ làm được đến thiết kế đúng
+Senior không đơn giản là người đã làm đủ số năm.
+Họ chọn kiến trúc phù hợp, dự báo rủi ro và hướng dẫn đồng đội.
+Tuấn phải giải thích được vì sao giải pháp này đáng để doanh nghiệp đầu tư.
+
+10. Hai hướng đi, không chỉ một chiếc ghế
+Sau senior, Tuấn có thể đi sâu theo hướng chuyên gia kỹ thuật.
+Hoặc phát triển năng lực dẫn dắt đội ngũ và quản lý.
+Không phải ai cũng cần làm sếp; điều quan trọng là phạm vi tác động.
+
+11. Bắt đầu bằng một vòng học nhỏ
+Nếu đang bắt đầu hôm nay, hãy chọn một bài toán nhỏ trong đời sống.
+Mỗi vòng: học một kiến thức, làm một tính năng, đo kết quả rồi sửa.
+Ghi lại tiến bộ bằng sản phẩm, thay vì chỉ đếm số chứng chỉ.
+
+12. Đừng chỉ nhìn đỉnh tháp
+Các bậc nghề nghiệp là định hướng, không phải lịch thăng chức tự động.
+Thu nhập còn tùy kỹ năng, công ty và thị trường ở từng thời điểm.
+Bạn đang ở bậc nào, và sản phẩm tiếp theo của bạn sẽ là gì?

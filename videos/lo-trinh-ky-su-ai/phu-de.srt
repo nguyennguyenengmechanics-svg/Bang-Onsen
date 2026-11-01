@@ -1,0 +1,143 @@
+1
+00:00:00,000 --> 00:00:04,000
+Tuấn muốn làm kỹ sư AI, nhưng chưa biết bắt đầu từ đâu.
+
+2
+00:00:04,000 --> 00:00:08,000
+Đừng bắt đầu bằng giấc mơ lương nghìn đô.
+
+3
+00:00:08,000 --> 00:00:12,000
+Hãy bắt đầu bằng một thứ mình tự tay làm cho chạy được.
+
+4
+00:00:12,000 --> 00:00:16,000
+Trước hết, học Python, Git và cách xử lý dữ liệu bằng SQL.
+
+5
+00:00:16,000 --> 00:00:20,000
+Song song là đại số tuyến tính, xác suất và thống kê.
+
+6
+00:00:20,000 --> 00:00:24,000
+Không cần biết hết mới bắt đầu, nhưng phải hiểu điều mình đang dùng.
+
+7
+00:00:24,000 --> 00:00:28,000
+Tiếp theo, học cách chia dữ liệu, huấn luyện và đánh giá mô hình.
+
+8
+00:00:28,000 --> 00:00:32,000
+Một mô hình điểm cao vẫn có thể sai nếu dữ liệu bị rò rỉ.
+
+9
+00:00:32,000 --> 00:00:36,000
+Hãy làm bài toán nhỏ trước, hiểu vì sao nó đúng và khi nào nó sai.
+
+10
+00:00:36,000 --> 00:00:40,000
+Tuấn chọn một dự án: chatbot, đọc hóa đơn hoặc gợi ý sản phẩm.
+
+11
+00:00:40,000 --> 00:00:44,000
+Đưa mã lên GitHub, viết hướng dẫn chạy và công bố cách đánh giá.
+
+12
+00:00:44,000 --> 00:00:48,000
+Một dự án hoàn chỉnh có giá trị hơn nhiều bản sao tutorial.
+
+13
+00:00:48,000 --> 00:00:52,000
+Khi đã có nền tảng và dự án, hãy tìm cơ hội thực tập.
+
+14
+00:00:52,000 --> 00:00:56,000
+Ở đây, Tuấn học đọc code, nhận góp ý và sửa lỗi cùng đồng đội.
+
+15
+00:00:56,000 --> 00:01:00,000
+Danh hiệu chưa quan trọng bằng việc mình tiến bộ qua từng nhiệm vụ.
+
+16
+00:01:00,000 --> 00:01:04,000
+Từ fresher lên junior, mục tiêu là tự hoàn thành một phần việc rõ ràng.
+
+17
+00:01:04,000 --> 00:01:08,000
+Không chỉ chạy trên máy cá nhân: hãy đưa mô hình thành một API.
+
+18
+00:01:08,000 --> 00:01:12,000
+Và biết kiểm tra đầu vào, ghi log, xử lý những lỗi thường gặp.
+
+19
+00:01:12,000 --> 00:01:16,000
+Để lên mid-level, Tuấn phải làm chủ cả vòng đời một tính năng AI.
+
+20
+00:01:16,000 --> 00:01:20,000
+Chọn giải pháp, triển khai, theo dõi rồi cải thiện khi dữ liệu thay đổi.
+
+21
+00:01:20,000 --> 00:01:24,000
+Lúc này, chất lượng phải đi cùng tốc độ phản hồi và chi phí vận hành.
+
+22
+00:01:24,000 --> 00:01:28,000
+Đến đây, hãy chọn một hướng để đào sâu theo sở thích và cơ hội.
+
+23
+00:01:28,000 --> 00:01:32,000
+Có thể là ngôn ngữ, thị giác máy tính, hoặc hệ thống và vận hành AI.
+
+24
+00:01:32,000 --> 00:01:36,000
+Dùng mô hình có sẵn vẫn cần đánh giá và thiết kế nghiêm túc.
+
+25
+00:01:36,000 --> 00:01:40,000
+Senior không đơn giản là người đã làm đủ số năm.
+
+26
+00:01:40,000 --> 00:01:44,000
+Họ chọn kiến trúc phù hợp, dự báo rủi ro và hướng dẫn đồng đội.
+
+27
+00:01:44,000 --> 00:01:48,000
+Tuấn phải giải thích được vì sao giải pháp này đáng để doanh nghiệp đầu tư.
+
+28
+00:01:48,000 --> 00:01:52,000
+Sau senior, Tuấn có thể đi sâu theo hướng chuyên gia kỹ thuật.
+
+29
+00:01:52,000 --> 00:01:56,000
+Hoặc phát triển năng lực dẫn dắt đội ngũ và quản lý.
+
+30
+00:01:56,000 --> 00:02:00,000
+Không phải ai cũng cần làm sếp; điều quan trọng là phạm vi tác động.
+
+31
+00:02:00,000 --> 00:02:04,000
+Nếu đang bắt đầu hôm nay, hãy chọn một bài toán nhỏ trong đời sống.
+
+32
+00:02:04,000 --> 00:02:08,000
+Mỗi vòng: học một kiến thức, làm một tính năng, đo kết quả rồi sửa.
+
+33
+00:02:08,000 --> 00:02:12,000
+Ghi lại tiến bộ bằng sản phẩm, thay vì chỉ đếm số chứng chỉ.
+
+34
+00:02:12,000 --> 00:02:16,000
+Các bậc nghề nghiệp là định hướng, không phải lịch thăng chức tự động.
+
+35
+00:02:16,000 --> 00:02:20,000
+Thu nhập còn tùy kỹ năng, công ty và thị trường ở từng thời điểm.
+
+36
+00:02:20,000 --> 00:02:24,000
+Bạn đang ở bậc nào, và sản phẩm tiếp theo của bạn sẽ là gì?

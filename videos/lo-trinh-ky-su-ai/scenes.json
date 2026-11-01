@@ -1,0 +1,170 @@
+[
+  [
+    "BẮT ĐẦU TỪ ĐÂU?",
+    "Lộ trình sự nghiệp kỹ sư AI",
+    [
+      "Học gì?",
+      "Làm gì?",
+      "Chứng minh thế nào?"
+    ],
+    [
+      "Tuấn muốn làm kỹ sư AI, nhưng chưa biết bắt đầu từ đâu.",
+      "Đừng bắt đầu bằng giấc mơ lương nghìn đô.",
+      "Hãy bắt đầu bằng một thứ mình tự tay làm cho chạy được."
+    ]
+  ],
+  [
+    "01 / NỀN TẢNG",
+    "Xây móng trước khi xây AI",
+    [
+      "Python + Git",
+      "Toán & xác suất",
+      "SQL + dữ liệu"
+    ],
+    [
+      "Trước hết, học Python, Git và cách xử lý dữ liệu bằng SQL.",
+      "Song song là đại số tuyến tính, xác suất và thống kê.",
+      "Không cần biết hết mới bắt đầu, nhưng phải hiểu điều mình đang dùng."
+    ]
+  ],
+  [
+    "02 / HỌC MÁY",
+    "Đừng chỉ nhìn điểm số đẹp",
+    [
+      "Dữ liệu → Mô hình",
+      "Huấn luyện ≠ kiểm thử",
+      "Đánh giá đúng bài toán"
+    ],
+    [
+      "Tiếp theo, học cách chia dữ liệu, huấn luyện và đánh giá mô hình.",
+      "Một mô hình điểm cao vẫn có thể sai nếu dữ liệu bị rò rỉ.",
+      "Hãy làm bài toán nhỏ trước, hiểu vì sao nó đúng và khi nào nó sai."
+    ]
+  ],
+  [
+    "03 / DỰ ÁN ĐẦU TAY",
+    "Cho nhà tuyển dụng thấy sản phẩm",
+    [
+      "Chatbot tiếng Việt",
+      "Đọc ảnh hóa đơn",
+      "Gợi ý sản phẩm"
+    ],
+    [
+      "Tuấn chọn một dự án: chatbot, đọc hóa đơn hoặc gợi ý sản phẩm.",
+      "Đưa mã lên GitHub, viết hướng dẫn chạy và công bố cách đánh giá.",
+      "Một dự án hoàn chỉnh có giá trị hơn nhiều bản sao tutorial."
+    ]
+  ],
+  [
+    "04 / THỰC TẬP",
+    "Học cách làm việc trong một đội",
+    [
+      "Đọc code của người khác",
+      "Nhận góp ý",
+      "Sửa lỗi & viết tài liệu"
+    ],
+    [
+      "Khi đã có nền tảng và dự án, hãy tìm cơ hội thực tập.",
+      "Ở đây, Tuấn học đọc code, nhận góp ý và sửa lỗi cùng đồng đội.",
+      "Danh hiệu chưa quan trọng bằng việc mình tiến bộ qua từng nhiệm vụ."
+    ]
+  ],
+  [
+    "05 / FRESHER → JUNIOR",
+    "Tự làm được một phần việc",
+    [
+      "Xử lý dữ liệu",
+      "Huấn luyện mô hình",
+      "Đưa lên API"
+    ],
+    [
+      "Từ fresher lên junior, mục tiêu là tự hoàn thành một phần việc rõ ràng.",
+      "Không chỉ chạy trên máy cá nhân: hãy đưa mô hình thành một API.",
+      "Và biết kiểm tra đầu vào, ghi log, xử lý những lỗi thường gặp."
+    ]
+  ],
+  [
+    "06 / JUNIOR → MID-LEVEL",
+    "Chịu trách nhiệm từ đầu đến cuối",
+    [
+      "Chất lượng",
+      "Độ trễ",
+      "Chi phí"
+    ],
+    [
+      "Để lên mid-level, Tuấn phải làm chủ cả vòng đời một tính năng AI.",
+      "Chọn giải pháp, triển khai, theo dõi rồi cải thiện khi dữ liệu thay đổi.",
+      "Lúc này, chất lượng phải đi cùng tốc độ phản hồi và chi phí vận hành."
+    ]
+  ],
+  [
+    "07 / CHỌN HƯỚNG SÂU",
+    "Không cần giỏi tất cả cùng lúc",
+    [
+      "Ngôn ngữ & GenAI",
+      "Thị giác máy tính",
+      "ML hệ thống / MLOps"
+    ],
+    [
+      "Đến đây, hãy chọn một hướng để đào sâu theo sở thích và cơ hội.",
+      "Có thể là ngôn ngữ, thị giác máy tính, hoặc hệ thống và vận hành AI.",
+      "Dùng mô hình có sẵn vẫn cần đánh giá và thiết kế nghiêm túc."
+    ]
+  ],
+  [
+    "08 / MID-LEVEL → SENIOR",
+    "Từ làm được đến thiết kế đúng",
+    [
+      "Kiến trúc hệ thống",
+      "Rủi ro & bảo mật",
+      "Hướng dẫn đồng đội"
+    ],
+    [
+      "Senior không đơn giản là người đã làm đủ số năm.",
+      "Họ chọn kiến trúc phù hợp, dự báo rủi ro và hướng dẫn đồng đội.",
+      "Tuấn phải giải thích được vì sao giải pháp này đáng để doanh nghiệp đầu tư."
+    ]
+  ],
+  [
+    "09 / SAU SENIOR",
+    "Hai hướng đi, không chỉ một chiếc ghế",
+    [
+      "Chuyên gia kỹ thuật",
+      "Lead / quản lý",
+      "Tác động lớn hơn"
+    ],
+    [
+      "Sau senior, Tuấn có thể đi sâu theo hướng chuyên gia kỹ thuật.",
+      "Hoặc phát triển năng lực dẫn dắt đội ngũ và quản lý.",
+      "Không phải ai cũng cần làm sếp; điều quan trọng là phạm vi tác động."
+    ]
+  ],
+  [
+    "10 / KẾ HOẠCH HÀNH ĐỘNG",
+    "Bắt đầu bằng một vòng học nhỏ",
+    [
+      "Học một kiến thức",
+      "Làm một tính năng",
+      "Đo → sửa → ghi lại"
+    ],
+    [
+      "Nếu đang bắt đầu hôm nay, hãy chọn một bài toán nhỏ trong đời sống.",
+      "Mỗi vòng: học một kiến thức, làm một tính năng, đo kết quả rồi sửa.",
+      "Ghi lại tiến bộ bằng sản phẩm, thay vì chỉ đếm số chứng chỉ."
+    ]
+  ],
+  [
+    "ĐI ĐƯỜNG DÀI",
+    "Đừng chỉ nhìn đỉnh tháp",
+    [
+      "Nền tảng vững",
+      "Sản phẩm thật",
+      "Học đều, đi bền"
+    ],
+    [
+      "Các bậc nghề nghiệp là định hướng, không phải lịch thăng chức tự động.",
+      "Thu nhập còn tùy kỹ năng, công ty và thị trường ở từng thời điểm.",
+      "Bạn đang ở bậc nào, và sản phẩm tiếp theo của bạn sẽ là gì?"
+    ]
+  ]
+]
